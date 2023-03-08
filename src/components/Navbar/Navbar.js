@@ -28,7 +28,9 @@ const Navbar = () => {
           }}
           transition={{ duration: 2 }}
         >
-          <img src={Logo} alt="logo" className="w-[80px]" />
+          <Link to="/">
+            <img src={Logo} alt="logo" className="w-[80px]" />
+          </Link>
         </motion.div>
         {/* menu */}
         <motion.ul
@@ -43,23 +45,36 @@ const Navbar = () => {
           }}
           transition={{ duration: 2 }}
         >
-          <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
-            <Link to="/home">Home</Link>
-          </li>
-          <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
-            <Link to="/skills">Skills</Link>
-          </li>
-          <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
-            <Link to="/work">Work</Link>
-          </li>
-          <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-100 font-bold">
-            <Link to="/contact" smooth={true} duration={500}>
+          <Link to="/">
+            <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+              Home
+            </li>
+          </Link>
+          <Link to="/about">
+            <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+              About
+            </li>
+          </Link>
+          <Link to="/skills">
+            <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+              Skills
+            </li>
+          </Link>
+          <Link to="/projects">
+            <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+              Projects
+            </li>
+          </Link>
+          <Link to="/courses">
+            <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+              Courses
+            </li>
+          </Link>
+          <Link to="/contact">
+            <li className="mx-4 p-4 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-100 font-bold">
               Contact
-            </Link>
-          </li>
+            </li>
+          </Link>
         </motion.ul>
         <div
           className="md:hidden z-10"
@@ -84,66 +99,66 @@ const Navbar = () => {
           }}
           transition={{ duration: 2 }}
         >
-          <li className="p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
-            <Link
-              onClick={() => {
-                setNav(!nav);
-              }}
-              to="home"
-              smooth={true}
-              duration={500}
-            >
+          <Link
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/"
+          >
+            <li className="p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
               Home
-            </Link>
-          </li>
-          <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
-            <Link
-              onClick={() => {
-                setNav(!nav);
-              }}
-              to="about"
-              smooth={true}
-              duration={500}
-            >
+            </li>
+          </Link>
+          <Link
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/about"
+          >
+            <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
               About
-            </Link>
-          </li>
-          <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
-            <Link
-              onClick={() => {
-                setNav(!nav);
-              }}
-              to="skills"
-              smooth={true}
-              duration={500}
-            >
+            </li>
+          </Link>
+          <Link
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/skills"
+          >
+            <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
               Skills
-            </Link>
-          </li>
-          <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
-            <Link
-              onClick={() => {
-                setNav(!nav);
-              }}
-              to="work"
-              smooth={true}
-              duration={500}
-            >
-              Work
-            </Link>
-          </li>
-          <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
-            <Link
-              onClick={() => {
-                setNav(!nav);
-              }}
-              to="contact"
-              smooth={true}
-              duration={500}
-            >
+            </li>
+          </Link>
+          <Link
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/projects"
+          >
+            <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
+              Projects
+            </li>
+          </Link>
+          <Link
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/courses"
+          >
+            <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
+              Courses
+            </li>
+          </Link>
+          <Link
+            onClick={() => {
+              setNav(!nav);
+            }}
+            to="/contact"
+          >
+            <li className="my-3 p-3 text-4xl transition duration-300 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300">
               Contact
-            </Link>
-          </li>
+            </li>
+          </Link>
         </motion.ul>
         {/* <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
