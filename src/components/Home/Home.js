@@ -3,16 +3,15 @@
 import PersonalPhoto from "../Images/PersonalPhoto.jpg";
 import CoverPhoto from "../Images/CoverPhoto.jpg";
 import Card from "../Reusable/Card";
+// import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Home1 = () => {
   return (
     <div
       className="min-h-screen w-screen flex justify-center items-center"
-      style={{ backgroundImage: `url(${CoverPhoto})`, backgroundSize: "cover" }}
     >
       <Card>
         <div>
-          {/* <div className="w-full  lg:w-2/3 p-4 text-white bg-green-700"> */}
           <img
             src={PersonalPhoto}
             alt="my-pict"
@@ -25,7 +24,6 @@ const Home1 = () => {
             applications.
           </p>
         </div>
-        {/* </div> */}
       </Card>
     </div>
   );
