@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 const Card = (props) => {
   return (
     <motion.div
-      className="p-4 text-green-800 mt-16 flex flex-wrap lg:flex-nowrap h-full w-2/3  lg:max-w-lg  rounded-lg shadow-lg bg-white"
+      className="shadow-md shadow-[#040c16]   border-4 border-green-500 text-green-800 my-14 lg:mt-12 w-11/12  lg:max-w-lg  rounded-lg shadow-lg bg-white"
+      // whileHover={{ scale: 1.1, duration: 0.1 }}
       initial={{
         opacity: 0,
         y: 0,

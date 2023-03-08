@@ -32,7 +32,7 @@ const SkillsData = [
   },
   {
     id: "5",
-    title: "TailwindCSS",
+    title: "Tailwind",
     img: TailwindCSS,
   },
   {
