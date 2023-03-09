@@ -1,6 +1,6 @@
 import React from "react";
 import PersonalPhoto from "../Images/PersonalPhoto.jpg";
-import Card1 from "../Reusable/Card1";
+import AboutCard from "../Cards/AboutCard";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
 
   return (
     <div className="h-full w-screen flex justify-center items-center">
-      <Card1>
+      <AboutCard>
         <div className="flex flex-wrap lg:flex-nowrap h-auto">
           <div className="w-full lg:w-2/3 p-4 text-green-700">
             <motion.h1
@@ -57,7 +57,7 @@ const About = () => {
             <img src={PersonalPhoto} alt="my-pict" className="w-full h-11/12" />
           </div>
         </div>
-      </Card1>
+      </AboutCard>
     </div>
   );
 };

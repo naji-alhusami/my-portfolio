@@ -2,7 +2,7 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
-const Card = (props) => {
+const HomeAndSkillsCard = (props) => {
   return (
     <motion.div
       className="shadow-md shadow-[#040c16]   border-4 border-green-500 text-green-800 my-14 lg:mt-12 w-11/12  lg:max-w-lg  rounded-lg shadow-lg bg-white"
@@ -22,4 +22,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default HomeAndSkillsCard;

@@ -1,7 +1,7 @@
 // import Card from "../Reusable/Card";
 // import MealItem from "./MealItem/MealItem";
 // import PersonalPhoto from "../Images/PersonalPhoto.jpg";
-import Card from "../Reusable/Card";
+import HomeAndSkillsCard from "../Cards/HomeAndSkillsCard";
 import { HiArrowNarrowRight } from "react-icons/hi";
 // import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="min-h-screen w-screen flex justify-center items-center">
-      <Card>
+      <HomeAndSkillsCard>
         <div className="p-4 ">
           {/* <img
             src={PersonalPhoto}
@@ -36,7 +36,7 @@ const Home = () => {
             </button>
           </Link>
         </div>
-      </Card>
+      </HomeAndSkillsCard>
     </div>
   );
 };

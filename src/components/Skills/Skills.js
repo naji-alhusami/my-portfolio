@@ -2,7 +2,7 @@ import React from "react";
 
 import SkillsData from "./SkillsData";
 // import SkillCard from "../components/SkillCard";
-import Card from "../Reusable/Card";
+import HomeAndSkillsCard from "../Cards/HomeAndSkillsCard";
 
 const Skills = () => {
   return (
@@ -16,14 +16,16 @@ const Skills = () => {
         </div> */}
         <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-4 text-center  px-8">
           {SkillsData.map((skill) => (
-            <Card key={skill.id}>
+            <HomeAndSkillsCard key={skill.id}>
               <img
                 src={skill.img}
                 alt="my-pict"
                 className="my-4 w-20 h-20 mx-auto"
               />
-              <p className="text-2xl font-bold mb-4 text-center">{skill.title}</p>
-            </Card>
+              <p className="text-2xl font-bold mb-4 text-center">
+                {skill.title}
+              </p>
+            </HomeAndSkillsCard>
           ))}
         </div>
       </div>
