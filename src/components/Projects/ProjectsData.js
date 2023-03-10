@@ -1,15 +1,23 @@
-const CoursesData = [
+import Madlibs from '../Images/Madlibs.PNG';
+import Hangman from '../Images/Hangman.PNG';
+import Movie from '../Images/Movie.PNG';
+import Foodorder from '../Images/Foodorder.PNG';
+import Therapist from '../Images/Therapist.PNG';
+
+const ProjectsData = [
   {
     id: 1,
     name: "Online Therapist",
     technologies: "HTML, TailwindCSS, Reactjs, Redux toolkit, Firebase",
     description: "fifth project",
+    image: Therapist
   },
   {
     id: 2,
     name: "Online Food Order",
     technologies: "HTML, CSS, Reactjs, Firebase",
     description: "fourth project",
+    image: Foodorder
   },
   {
     id: 3,
@@ -17,6 +25,7 @@ const CoursesData = [
     technologies:
       "HTML, CSS, Bootstrap, Vanilla JavaScript, Movie Database API",
     description: "third project",
+    image: Movie
   },
   {
     id: 4,
@@ -29,13 +38,15 @@ const CoursesData = [
     name: "Hangman Game",
     technologies: "HTML, Vanilla JavaScript",
     description: "second project",
+    image: Hangman
   },
   {
     id: 6,
     name: "Madlibs",
     technologies: "HTML, CSS, Vanilla JavaScript, Regular Expressions",
     description: "first project",
+    image: Madlibs
   },
 ];
 
-export default CoursesData;
+export default ProjectsData;
