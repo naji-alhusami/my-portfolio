@@ -3,7 +3,7 @@ const CoursesData = [
     id: 1,
     name: "Git & GitHub - The Practical Guide",
     description:
-      "Work with Git, including all about repositories, commits, branches || Merging, rebasing, the stash and learn how to manage merge conflicts || Collaborate in projects via Git & GitHub in teams & organizations || Contribute to open-source projects via forks & pull requests",
+      "Work with Git, including all about repositories, commits, branches. || Merging, rebasing, the stash and learn how to manage merge conflicts. || Collaborate in projects via Git & GitHub in teams & organizations. || Contribute to open-source projects via forks & pull requests.",
     price: 22.99,
   },
   {
