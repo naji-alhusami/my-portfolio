@@ -27,12 +27,12 @@ const ProjectsData = [
     description: "third project",
     image: Movie
   },
-  {
-    id: 4,
-    name: "JSON Placeholder posts and users",
-    technologies: "HTML, TailwindCSS, Reactjs, Redux toolkit",
-    description: "second project",
-  },
+//   {
+//     id: 4,
+//     name: "JSON Placeholder posts and users",
+//     technologies: "HTML, TailwindCSS, Reactjs, Redux toolkit",
+//     description: "second project",
+//   },
   {
     id: 5,
     name: "Hangman Game",
