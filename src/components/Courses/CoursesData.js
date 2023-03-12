@@ -4,37 +4,37 @@ const CoursesData = [
     name: "Git & GitHub - The Practical Guide",
     description:
       "Work with Git, including all about repositories, commits, branches. || Merging, rebasing, the stash and learn how to manage merge conflicts. || Collaborate in projects via Git & GitHub in teams & organizations. || Contribute to open-source projects via forks & pull requests.",
-    certificate: 22.99,
+    certificate: "https://www.udemy.com/certificate/UC-55d37a4e-5b48-437e-b4ce-b00359a84cd2/",
   },
   {
     id: 2,
     name: "CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass)",
     description: "Flexbox, grid, animations, transitions, fonts, media queries. || Use basic as well as advanced CSS features.",
-    certificate: 22.99,
+    certificate: "https://www.udemy.com/certificate/UC-df02fd9b-fa68-4a11-9d61-3d8451356579/",
   },
   {
     id: 3,
     name: "JavaScript - The Complete Guide 2023 (Beginner + Advanced)",
-    description: "A german specialty!",
-    certificate: 16.5,
+    description: "Learn variables, functions, objects and arrays. || Event handling, asynchronous coding and Http requests. || Testing, security and deployment. || Object-oriented programming. || Manipulating web pages (DOM) with JavaScript. || Project-driven learning with plenty of examples.",
+    certificate: "https://www.udemy.com/certificate/UC-93b7cfaa-90d5-4104-914f-8650f5f5ebce/",
   },
   {
     id: 4,
     name: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-    description: "American, raw, meaty",
-    certificate: 12.99,
+    description: "Learn how to work with components. || React State and working with Events. || Debugging React applications. || Handling Side Effects, Using Reducers & using context API. || Sending HTTP requests (with Database) || Learn how to build custom react hooks. || Learn how to work with forms and user Inputs. || Learn React Router. || Learn Authenitcation to React Applications. || Learn Redux toolkit.",
+    certificate: "https://www.udemy.com/certificate/UC-10a99313-df4e-442f-9910-23e983e26f1d/",
   },
   {
     id: 5,
     name: "Understanding TypeScript",
     description: "Use TypeScript and its Features like Types, ES6 Support, Classes, Modules, Interfaces. || Learn how to combine TypeScript with ReactJS or NodeJS / Express. || Learn TypeScript both in theory as well as applied to real use-cases and projects.",
-    certificate: 18.99,
+    certificate: "https://www.udemy.com/certificate/UC-9bd86902-3e1b-4467-afed-18ea384fe210/",
   },
   {
     id: 6,
     name: "Gatsby.js Tutorial and Projects Course",
-    description: "Healthy...and green...",
-    certificate: 18.99,
+    description: "Installing Gatsbyjs. || Learn Gatsbyjs. || Building Projects.",
+    certificate: "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
   },
 ];
 

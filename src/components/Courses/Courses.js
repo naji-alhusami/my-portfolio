@@ -35,9 +35,11 @@ const Courses = () => {
           <h1 className="text-2xl font-bold text-green-700 text-left m-4">
             {course.name}
           </h1>
-          <button className="m-5 text-sm text-white bg-red-500 py-2 px-3 self-center">
-            Download Certificate
-          </button>
+          <a href={course.certificate} target="_blank" rel="noreferrer">
+            <button className="m-5 text-sm text-white bg-red-500 py-2 px-3 self-center">
+              Show Certificate
+            </button>
+          </a>
         </div>
         <ul className="p-4 text-lg text-left">
           {courseDescription.map((description) => (
