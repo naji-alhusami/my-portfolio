@@ -33,7 +33,7 @@ const ProjectsData = [
       "HTML, CSS, Bootstrap, Vanilla JavaScript, Movie Database API.",
     description: "This project allows us to fetch the newest movies and actors from the Movie Database API (TMDB) which is a community-built movie and TV DB. In addition, we can filter the movies or actors and search for them. Also, we can reach the details of each movie and actor. ",
     image: Movie,
-    info: "I built this website with a team, we were four working on this project, I took the movies part with by fetching it from the API and I made the details movies pages. I learned how to use Vanilla JavaScript, how to fetch data from API and how to use Bootstrap. In addition, I led my team throught one week of project. By working with a team, it increased my potential for innovation.",
+    info: "I built this website with a team, we were four working on this project, I took the movies part with by fetching it from the API and I made the details movies pages. I learned how to use Vanilla JavaScript, how to fetch data from API and how to use Bootstrap. In addition, I led my team through one week of project. By working with a team, it increased my potential for innovation.",
     code: "https://github.com/Recoded-Spark-Turkey-2022/movie-project-cinemadev",
     demo: "https://dreamy-crisp-010301.netlify.app",
   },
