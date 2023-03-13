@@ -1,4 +1,4 @@
-import "./App.css";
+// import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-gradient-to-r from-green-300 via-white to-white text-center">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

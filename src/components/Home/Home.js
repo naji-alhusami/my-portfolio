@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Cover from "../Images/Cover.png";
+import SocialLinks from "./SocialLinks";
 
 const Home = () => {
   return (
@@ -9,12 +10,16 @@ const Home = () => {
         <div className="h-full items-center mx-auto max-w-screen-lg flex">
           <div className="w-1/2">
             <div>
-              <div className="bg-emerald-500 py-1 w-24 my-4" alt="A line" />
+              <div className="bg-emerald-500 py-1 w-28 my-4" alt="A line" />
             </div>
-            <h1 className="text-6xl text-bold text-teal-800 text-left my-4">I'm Naji</h1>
-            <h4 className="text-2xl text-left my-2 text-bold">Font-End Development</h4>
-            <div className="text-xl text-bold float-left">
-              Please Check:
+            <h1 className="text-7xl text-bold text-teal-900 text-left my-4">
+              I'm Naji
+            </h1>
+            <h4 className="text-2xl text-left my-2 text-bold">
+              Font-End Development
+            </h4>
+            <div className="text-xl text-bold float-left my-3">
+              Please Read:
               <Link to="/about">
                 <button
                   type="button"
@@ -32,6 +37,15 @@ const Home = () => {
                   Contact Me
                 </button>
               </Link>
+            </div>
+            <div className="mt-50 w-60 flex justify-between">
+              {SocialLinks.map((link) => {
+                return (
+                  <a href={link.url} key={link.id} className="text-4xl text-gray-500 transition duration-500">
+                    {link.image}
+                  </a>
+                );
+              })}
             </div>
           </div>
           <div className="relative z-10 my-4">

@@ -14,7 +14,7 @@ const Skills = () => {
           </p>
           <p className="py-4">These are the technologies I've worked with</p>
         </div> */}
-        <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-4 text-center  px-8">
+        <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-1 text-center  px-8">
           {SkillsData.map((skill) => (
             <HomeAndSkillsCard key={skill.id}>
               <img

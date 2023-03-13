@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-gradient-to-r from-green-300 via-white to-white w-screen h-[60px] flex justify-between items-center px-4">
+      <nav className=" w-screen h-[60px] flex justify-between items-center px-4">
         <motion.div
           initial={{
             opacity: 0,
