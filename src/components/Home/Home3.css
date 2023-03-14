@@ -1,0 +1,6 @@
+@media (max-width: 639px) {
+  .custom-mobile-styles {
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+}
