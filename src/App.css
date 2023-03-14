@@ -5,14 +5,20 @@
   background-attachment: fixed;
   overflow-x: hidden;
 } */
-/* body {
-  background: linear-gradient(to right, rgba(0, 128, 0, 1), rgba(209, 13, 13, 0));
-} */
 
-/* body {
-  background: linear-gradient(to right, #48BB78, #ffffff);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+.bg-emerald-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 58%;
+  height: 100%;
+  background-color: #c5f5e2;
+  /* z-index:1; */
 }
 
+/*
 .App {
   text-align: center;
 } */
@@ -43,11 +49,11 @@
   color: #61dafb;
 } */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */

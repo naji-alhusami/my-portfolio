@@ -1,64 +1,43 @@
-import React from "react";
+// import Card from "../Reusable/Card";
+// import MealItem from "./MealItem/MealItem";
+// import PersonalPhoto from "../Images/PersonalPhoto.jpg";
+import HomeAndSkillsCard from "../Cards/HomeAndSkillsCard";
+import { HiArrowNarrowRight } from "react-icons/hi";
+// import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Cover from "../Images/Cover.png";
-import SocialLinks from "./SocialLinks";
 
 const Home = () => {
   return (
-    <header className="absolute z-0 w-screen h-screen">
-      <div className="bg-gradient-to-r from-green-300 via-white h-full">
-        <div className="h-full items-center mx-auto max-w-screen-lg flex">
-          <div className="w-1/2">
-            <div>
-              <div className="bg-emerald-500 py-1 w-28 my-4" alt="A line" />
-            </div>
-            <h1 className="text-7xl text-bold text-teal-900 text-left my-4">
-              I'm Naji
-            </h1>
-            <h4 className="text-2xl text-left my-2 text-bold">
-              Font-End Development
-            </h4>
-            <div className="text-xl text-bold float-left my-3">
-              Please Read:
-              <Link to="/about">
-                <button
-                  type="button"
-                  className="text-xl bg-emerald-500 p-3 rounded-md m-3 hover:text-white hover:bg-emerald-700"
-                >
-                  About Me
-                </button>
-              </Link>
-              OR
-              <Link to="/contact">
-                <button
-                  type="button"
-                  className="text-xl bg-emerald-500 p-3 rounded-md m-3 hover:text-white hover:bg-emerald-700"
-                >
-                  Contact Me
-                </button>
-              </Link>
-            </div>
-            <div className="mt-50 w-60 flex justify-between">
-              {SocialLinks.map((link) => {
-                return (
-                  <a href={link.url} key={link.id} className="text-4xl text-gray-500 transition duration-500">
-                    {link.image}
-                  </a>
-                );
-              })}
-            </div>
-          </div>
-          <div className="relative z-10 my-4">
-            <img
-              src={Cover}
-              alt="portfolio"
-              className="m-10"
-              placeholder="blurred"
-            />
-          </div>
+    <div className="min-h-screen w-screen flex justify-center items-center">
+      <HomeAndSkillsCard>
+        <div className="p-4 ">
+          {/* <img
+            src={PersonalPhoto}
+            alt="my-pict"
+            className="w-60 h-64 my-4 mx-auto overflow-hidden rounded-full"
+          /> */}
+          <h1 className="text-4xl font-bold mb-4">NAJI ALHUSAMI</h1>
+          <h3 className="text-lg mb-4">Front-End Development</h3>
+          <p className="text-lg mb-4 lg:px-20">
+            I'm a Front-End Developer, specializing in building responsive web
+            applications.
+          </p>
+          <Link to="/about" className="flex justify-center">
+            <button className="m-4 px-8 py-4 bg-green-700 hover:bg-green-900 flex items-center rounded-md text-white transition duration-100 font-bold">
+              Please Read More About Me
+                <HiArrowNarrowRight className="ml-3 " />
+            </button>
+          </Link>
+          <strong>OR</strong>
+          <Link to="/about" className="flex justify-center">
+            <button className="m-4 px-8 py-4 bg-green-700 hover:bg-green-900 flex items-center rounded-md text-white transition duration-100 font-bold">
+              Please Read More About Me
+                <HiArrowNarrowRight className="ml-3 " />
+            </button>
+          </Link>
         </div>
-      </div>
-    </header>
+      </HomeAndSkillsCard>
+    </div>
   );
 };
 

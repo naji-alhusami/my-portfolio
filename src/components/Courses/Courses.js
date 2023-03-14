@@ -52,7 +52,7 @@ const Courses = () => {
     );
   });
 
-  return <div className="flex flex-col justify-between bg-gradient-to-r from-green-300 via-white to-white">{courses}</div>;
+  return <div>{courses}</div>;
 };
 
 export default Courses;
