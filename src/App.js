@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-      <div className=" min-h-screen text-center relative">
+      <div className=" min-h-screen  relative">
         <div className="bg-emerald-overlay"></div>
         <Navbar />
         <Routes>

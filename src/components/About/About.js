@@ -26,9 +26,9 @@ const About = () => {
     <div className=" w-screen  flex justify-center items-center">
       <AboutCard>
         <div className="flex flex-wrap lg:flex-nowrap h-auto">
-          <div className="w-full lg:w-2/3 p-4 text-green-700">
+          <div className="w-full lg:w-2/3 p-4 text-green-700 text-center">
             <motion.h1
-              className="text-4xl font-bold mb-4 border-4 inline-block p-4 border-amber-700"
+              className="text-4xl  font-bold mb-4 border-4 inline-block p-4 border-amber-700"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
