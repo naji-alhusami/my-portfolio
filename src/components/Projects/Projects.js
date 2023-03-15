@@ -60,10 +60,8 @@ const Projects = () => {
                     alt="my-pict"
                     className="w-full h-full"
                   />
-
                   <div className="opacity-0 hover:opacity-100 absolute inset-0 bg-gray-900 flex justify-center items-center">
                     <div className="text-center">
-                      {/* <div className="lg:hidden"> */}
                       <a href={project.code} target="_blank" rel="noreferrer">
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:opacity-70 duration-300">
                           CODE
@@ -74,7 +72,6 @@ const Projects = () => {
                           DEMO
                         </button>
                       </a>
-                      {/* </div> */}
                     </div>
                   </div>
                 </div>

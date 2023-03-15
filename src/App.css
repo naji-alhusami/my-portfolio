@@ -8,15 +8,21 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
+
+/* .min-h-screen {
+  height: 100%;
+  position: relative;
+} */
+
 .bg-emerald-overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 58%;
+  width: 57%;
   height: 100%;
   background-color: #c5f5e2;
   box-shadow: 0 0 10px rgba(161, 124, 124, 0.5);
-  z-index:-1;
+  z-index: -1;
 }
 
 @media screen and (max-width: 767px) {

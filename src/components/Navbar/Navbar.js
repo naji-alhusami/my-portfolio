@@ -45,32 +45,32 @@ const Navbar = () => {
           transition={{ duration: 2 }}
         >
           <Link to="/">
-            <li className="mx-1 p-3 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+            <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
               Home
             </li>
           </Link>
           <Link to="/about">
-            <li className="mx-1 p-3 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+            <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
               About
             </li>
           </Link>
           <Link to="/skills">
-            <li className="mx-1 p-3 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+            <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
               Skills
             </li>
           </Link>
           <Link to="/projects">
-            <li className="mx-1 p-3 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+            <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
               Projects
             </li>
           </Link>
           <Link to="/courses">
-            <li className="mx-1 p-3 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-300 font-bold">
+            <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
               Courses
             </li>
           </Link>
           <Link to="/contact">
-            <li className="mx-1 p-3 hover:bg-green-700 hover:rounded-md hover:text-white transition duration-100 font-bold">
+            <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-100 font-bold">
               Contact
             </li>
           </Link>

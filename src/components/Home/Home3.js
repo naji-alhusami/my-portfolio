@@ -7,8 +7,8 @@ import "./Home3.css";
 
 const Home = () => {
   return (
-    <header className="relative">
-      <div className="relative flex flex-col md:flex-row md:items-center lg:ml-20 lg:mt-4">
+    <header className=" relative">
+      <div className="relative flex flex-col md:flex-row md:items-center lg:ml-20 lg:mt-2">
         <motion.div
           initial={{ x: -400 }}
           animate={{ x: 0 }}
