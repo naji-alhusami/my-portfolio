@@ -8,8 +8,8 @@ const About = () => {
     "- I'm a Front-End Development living in Istanbul with a Bachelor Degree in Information Systems Engineering from Eastern Mediterranean University (Northern Cyprus) and Master Degree in Computer Engineering from Bahçeşehir University (Istanbul, Turkey).",
     "- During my university life, I gained the theoretical part in many programming languages.",
     "- To start improving myself in Front-End field, I took many courses in Udemy Platform during my Master Degree.",
-    "- Joining Re-Coded after I hold my Master Degree helped me to apply my theoretical knowledge through many projects which improved my ability in programming. Re-Coded made us dive deeper in (HTML, CSS, BOOTSTRAP, TAILWIND, VANILLA JAVASCRIPT, REACTJS, REDUX).",
-    "- The most important part of my experience when I joined UNDP (SDG AI LAB) in Istanbul, They were building Radar Digital Technology using TypeScript. I helped them during the last part of building the project and then in deploying their website.",
+    "- After I hold my Master Degree, I joined Re-Coded which helped me applying my theoretical knowledge through many projects that improved my ability in programming. Re-Coded made us dive deeper in (HTML, CSS, BOOTSTRAP, TAILWIND, JAVASCRIPT, REACTJS, REDUX TOOLKIT).",
+    "- The most important part of my experience when I joined UNDP (SDG AI LAB) in Istanbul, They were building Radar Digital Technology web application using TypeScript. I helped them during the last part of building the project and then in deploying their website.",
   ];
 
   const containerVariants = {
@@ -23,12 +23,13 @@ const About = () => {
   };
 
   return (
-    <div className=" w-screen  flex justify-center items-center">
+    <div className=" w-screen flex flex-col justify-center items-center">
+      <h1 className="text-emerald-700 text-bold text-6xl my-3 p-4 border-b-4 border-amber-700">ABOUT ME</h1>
       <AboutCard>
         <div className="flex flex-wrap lg:flex-nowrap h-auto">
           <div className="w-full lg:w-2/3 p-4 text-green-700 text-center">
             <motion.h1
-              className="text-4xl  font-bold mb-4 border-4 inline-block p-4 border-amber-700"
+              className="text-4xl  font-bold mb-4 inline-block p-4 border-4 border-amber-700"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
