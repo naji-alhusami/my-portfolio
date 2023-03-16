@@ -10,8 +10,10 @@ import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
-      <div className=" min-h-screen  relative">
-        <div className="bg-emerald-overlay"></div>
+      <div className="min-h-screen  relative">
+        {/* <div className="bg-emerald-overlay"></div> */}
+        <div className=" bg-emerald-overlay"></div>
+
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />

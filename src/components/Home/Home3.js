@@ -10,14 +10,15 @@ import "./Home3.css";
 
 const Home = () => {
   return (
-    <header className=" relative">
+    <header className="relative">
+
       {/* <div className="relative flex flex-col md:flex-row md:items-center lg:ml-16 mt-2"> */}
-      <div className="relative flex xl:flex-row xl:mt-2 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center lg:ml-16 mt-2 image-styles-s">
+      <div className=" flex xl:flex-row xl:mt-2 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center lg:ml-16 mt-2 image-styles-s">
         <motion.div
           initial={{ x: -600 }}
           animate={{ x: 0 }}
           transition={{ delay: 0.2 }}
-          className="flex-1 flex flex-col justify-center text-left md:mb-8 md:ml-20 sm:mt-20 sm:ml-24 div-styles-xs"
+          className="flex-1 flex flex-col justify-center text-left md:mb-8 md:ml-6 sm:mt-20 sm:ml-24 div-styles-xs"
         >
           <div className="bg-emerald-500 h-1 w-28 mb-6" alt="A line" />
           <motion.h1

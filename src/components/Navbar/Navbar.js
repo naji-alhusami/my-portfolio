@@ -12,11 +12,16 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [activeLink, setActiveLink] = useState("");
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
 
   return (
-    <nav className="relative w-full h-[60px] flex justify-between items-center lg:px-0 px-[5rem]  z-2 ">
+    <nav className="bg-emerald-500 w-full h-[60px] flex justify-between items-center lg:px-0 px-[5rem]  z-2 ">
       <motion.div
-      className="lg:px-[5rem] md:px-12 sm:pl-4"
+        className="lg:px-[5rem] md:px-12 sm:pl-4"
         initial={{
           opacity: 0,
           x: -500,
@@ -45,32 +50,62 @@ const Navbar = () => {
         transition={{ duration: 2 }}
       >
         <Link to="/">
-          <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
+          <li
+            className={`mx-1 p-3 hover:text-white transition duration-300 font-bold ${
+              activeLink === "Home" ? "text-white active" : "text-black"
+            } `}
+            onClick={() => handleLinkClick("Home")}
+          >
             Home
           </li>
         </Link>
         <Link to="/about">
-          <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
+          <li
+            className={`mx-1 p-3 hover:text-white transition duration-300 font-bold ${
+              activeLink === "About" ? "text-white active" : "text-black"
+            } `}
+            onClick={() => handleLinkClick("About")}
+          >
             About
           </li>
         </Link>
         <Link to="/skills">
-          <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
+          <li
+            className={`mx-1 p-3 hover:text-white transition duration-300 font-bold ${
+              activeLink === "Skills" ? "text-white active" : "text-black"
+            } `}
+            onClick={() => handleLinkClick("Skills")}
+          >
             Skills
           </li>
         </Link>
         <Link to="/projects">
-          <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
+          <li
+            className={`mx-1 p-3 hover:text-white transition duration-300 font-bold ${
+              activeLink === "Projects" ? "text-white active" : "text-black"
+            } `}
+            onClick={() => handleLinkClick("Projects")}
+          >
             Projects
           </li>
         </Link>
         <Link to="/courses">
-          <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-300 font-bold">
+          <li
+            className={`mx-1 p-3 hover:text-white transition duration-300 font-bold ${
+              activeLink === "Courses" ? "text-white active" : "text-black"
+            } `}
+            onClick={() => handleLinkClick("Courses")}
+          >
             Courses
           </li>
         </Link>
-        <Link to="/contact">
-          <li className="mx-1 p-3 hover:bg-emerald-500 hover:rounded-md hover:text-white transition duration-100 font-bold">
+        <Link to="/contact" className="border-white">
+          <li
+            className={`mx-1 p-3 hover:text-white transition duration-300 font-bold ${
+              activeLink === "Contact" ? "text-white active" : "text-black"
+            } `}
+            onClick={() => handleLinkClick("Contact")}
+          >
             Contact
           </li>
         </Link>
@@ -159,7 +194,6 @@ const Navbar = () => {
           </li>
         </Link>
       </motion.ul>
-      
     </nav>
   );
 };
