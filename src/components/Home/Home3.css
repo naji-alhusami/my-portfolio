@@ -1,6 +1,31 @@
 @media (max-width: 639px) {
   .custom-mobile-styles {
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-left: 5rem;
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+  .image-styles-s {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem; 
+    /* height: 40%;
+    width: 40%; */
+  }
+}
+
+@media (max-width: 640px) {
+  .image-styles-xs {
+    position: hidden;
+  }
+}
+
+@media (max-width: 640px) {
+  .div-styles-xs {
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+}
+
