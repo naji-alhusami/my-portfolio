@@ -10,8 +10,7 @@ import "./Home3.css";
 
 const Home = () => {
   return (
-    <header className="relative">
-      {/* <div className="relative flex flex-col md:flex-row md:items-center lg:ml-16 mt-2"> */}
+    <header className="relative min-h-screen">
       <div className=" flex xl:flex-row xl:mt-2 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center lg:ml-16 mt-2 image-styles-s">
         <motion.div
           initial={{ x: -600 }}
@@ -61,12 +60,12 @@ const Home = () => {
             </Link>
           </motion.div>
           <motion.div
-            initial={{ x: -400 }}
+            initial={{ x: -600 }}
             animate={{ x: 0 }}
             transition={{ delay: 1 }}
             className="flex"
           >
-            <SocialLinks />
+            <SocialLinks showName={true} />
           </motion.div>
         </motion.div>
         <motion.div

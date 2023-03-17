@@ -42,23 +42,21 @@ const SocialLinksData = [
   },
 ];
 
-const SocialLinks = () => {
-  SocialLinksData.map((link) => {
-    return (
-      <p className="text-lg text-emerald-900 flex flex-row">
-        {link.name}
-        <a
-          href={link.url}
-          key={link.id}
-          target="_blank"
-          rel="noreferrer"
-          className="text-3xl transition duration-500 mr-8"
-        >
-          {link.image}
-        </a>
-      </p>
-    );
-  });
+const SocialLinks = ({showName}) => {
+  return SocialLinksData.map((link) => (
+    <p className="text-md font-bold text-emerald-900 flex flex-row mr-2">
+      {showName && link.name}
+      <a
+        href={link.url}
+        key={link.id}
+        target="_blank"
+        rel="noreferrer"
+        className="text-3xl transition duration-500 mr-5"
+      >
+        {link.image}
+      </a>
+    </p>
+  ));
 };
 
 export default SocialLinks;
