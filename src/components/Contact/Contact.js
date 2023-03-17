@@ -1,5 +1,7 @@
 import React from "react";
 import SkillsContactCard from "../Cards/SkillsContactCard";
+import { motion } from "framer-motion";
+import Cover from "../assets/Images/Cover3.png";
 
 const Contact = () => {
   return (
@@ -7,34 +9,64 @@ const Contact = () => {
       <h1 className="text-emerald-700 text-bold text-6xl  p-4 border-b-4 border-amber-700">
         CONTACT ME
       </h1>
-      <SkillsContactCard>
-        <form
-          action="https://getform.io/f/dc37deaf-23cc-45aa-9d8d-9f8611294beb"
-          method="POST"
-          className="flex flex-col p-4 max-w-[700px] w-full"
-        >
-          <label className="font-bold text-black">Name:</label>
-          <input type="text" name="name" className="bg-[#ccd6f6] p-2 mb-2" placeholder="Enter Your Name" />
-          <label className="font-bold text-black">Email:</label>
-          <input type="email" name="email" className="bg-[#ccd6f6] p-2 mb-2" placeholder="Enter Your Email" />
-          <label className="font-bold text-black">Subject:</label>
-          <input type="text" name="subject" className="bg-[#ccd6f6] p-2 mb-2" placeholder="Enter Your Subject" />
-          <label className="font-bold text-black">Your Message:</label>
-          <textarea
-            required
-            className="bg-[#ccd6f6] p-2"
-            name="message"
-            rows="5"
-            placeholder="Enter Your Message"
-          ></textarea>
-          <button
-            type="submit"
-            className="rounded-lg bg-emerald-500 hover:bg-emerald-700 text-black hover:text-white text-bold border-2 hover:bg-secondary hover:border-secondary px-4 py-2 mt-3 mx-auto flex items-center"
+      <div className=" flex xl:flex-row xl:m-2 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center lg:ml-16 mt-2 image-styles-s">
+        <SkillsContactCard>
+          <form
+            action="https://getform.io/f/dc37deaf-23cc-45aa-9d8d-9f8611294beb"
+            method="POST"
+            className="flex flex-col p-4 max-w-[700px] w-full"
           >
-            Send
-          </button>
-        </form>
-      </SkillsContactCard>
+            <label className="font-bold text-black">Name:</label>
+            <input
+              type="text"
+              name="name"
+              className="bg-[#ccd6f6] p-2 mb-2"
+              placeholder="Enter Your Name"
+            />
+            <label className="font-bold text-black">Email:</label>
+            <input
+              type="email"
+              name="email"
+              className="bg-[#ccd6f6] p-2 mb-2"
+              placeholder="Enter Your Email"
+            />
+            <label className="font-bold text-black">Subject:</label>
+            <input
+              type="text"
+              name="subject"
+              className="bg-[#ccd6f6] p-2 mb-2"
+              placeholder="Enter Your Subject"
+            />
+            <label className="font-bold text-black">Your Message:</label>
+            <textarea
+              required
+              className="bg-[#ccd6f6] p-2"
+              name="message"
+              rows="5"
+              placeholder="Enter Your Message"
+            ></textarea>
+            <button
+              type="submit"
+              className="rounded-lg bg-emerald-500 hover:bg-emerald-700 text-black hover:text-white text-bold border-2 hover:bg-secondary hover:border-secondary px-4 py-2 mt-3 mx-auto flex items-center"
+            >
+              Send
+            </button>
+          </form>
+        </SkillsContactCard>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.2 }}
+          className="flex xl:mr-56 xl:mt-20 xl:block lg:mr-16 lg:mt-20 lg:block md:mr-10 md:mt-10 md:block image-styles-s sm:hidden hidden"
+        >
+          <img
+            src={Cover}
+            alt="portfolio"
+            className="object-cover h-full w-full"
+            placeholder="blurred"
+          />
+        </motion.div>
+      </div>
     </div>
   );
 };

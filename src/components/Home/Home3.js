@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 import Cover from "../assets/Images/Cover.png";
 import SocialLinks from "./SocialLinks";
 import { motion } from "framer-motion";
-// import { HiOutlineMail } from "react-icons/hi";
-// import { BsFillPersonLinesFill } from "react-icons/bs";
-// import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Home3.css";
 
 const Home = () => {
@@ -72,7 +69,6 @@ const Home = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2 }}
-          // className="flex mr-20 lg:mt-20 lg:mr-56 md:mr-32 md:mt-20 hidden sm:block "
           className="flex xl:mr-56 xl:mt-20 xl:block lg:mr-16 lg:mt-20 lg:block md:mr-10 md:mt-10 md:block image-styles-s sm:hidden hidden"
         >
           <img
@@ -83,47 +79,6 @@ const Home = () => {
           />
         </motion.div>
       </div>
-      {/* <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600">
-            <a
-              href="https://www.linkedin.com/in/omar-bassatni-40a762188/"
-              target="_blank"
-              rel="noreferrer"
-              className="flex justify-between items-center w-full"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-            <a
-              href="https://github.com/OmarBassatni97"
-              target="_blank"
-              rel="noreferrer"
-              className="flex justify-between items-center w-full"
-            >
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-            <a
-              href="mailto:omarbassatni@gmail.com"
-              className="flex justify-between items-center w-full text-gray-300"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <a
-              href="www.google.com"
-              download
-              className="flex justify-between items-center w-full"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div> */}
     </header>
   );
 };
