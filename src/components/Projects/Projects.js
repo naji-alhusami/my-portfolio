@@ -1,6 +1,6 @@
 import React from "react";
 
-import AboutCard from "../Cards/AboutCard";
+import AboutProjectsCard from "../Cards/AboutProjectsCard";
 import ProjectsData from "./ProjectsData";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -26,7 +26,7 @@ const Projects = () => {
                 transition={{ duration: 0.5 }}
                 className="w-full"
               >
-                <AboutCard>
+                <AboutProjectsCard>
                   <div className="flex flex-wrap lg:flex-nowrap h-auto">
                     <div className="w-full lg:w-2/3 p-4 ">
                       <h1 className="text-4xl font-bold mb-4 border-b-4 inline-block p-4 border-amber-700 text-green-700">
@@ -91,7 +91,7 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                </AboutCard>
+                </AboutProjectsCard>
               </motion.div>
             </AnimatePresence>
           );

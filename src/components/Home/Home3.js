@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Cover from "../Images/Cover.png";
+import Cover from "../assets/Images/Cover.png";
 import SocialLinks from "./SocialLinks";
 import { motion } from "framer-motion";
 // import { HiOutlineMail } from "react-icons/hi";
@@ -11,7 +11,6 @@ import "./Home3.css";
 const Home = () => {
   return (
     <header className="relative">
-
       {/* <div className="relative flex flex-col md:flex-row md:items-center lg:ml-16 mt-2"> */}
       <div className=" flex xl:flex-row xl:mt-2 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center lg:ml-16 mt-2 image-styles-s">
         <motion.div
@@ -67,17 +66,7 @@ const Home = () => {
             transition={{ delay: 1 }}
             className="flex"
           >
-            {SocialLinks.map((link) => {
-              return (
-                <a
-                  href={link.url}
-                  key={link.id}
-                  className="text-4xl text-gray-500 transition duration-500"
-                >
-                  {link.image}
-                </a>
-              );
-            })}
+            <SocialLinks />
           </motion.div>
         </motion.div>
         <motion.div

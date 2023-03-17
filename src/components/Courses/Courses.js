@@ -3,8 +3,6 @@ import CoursesData from "./CoursesData";
 import CoursesCard from "../Cards/CoursesCard";
 
 const Courses = () => {
-  // return CoursesData.map((course) => {
-  //   const courseDescription = course.description.split("||");
 
   return (
     <div className="h-full overflow-auto">

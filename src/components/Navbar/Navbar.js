@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import Logo from "../Images/Logo.svg";
-// import Resume from "../assets/resume.pdf";
+import Logo from "../assets/Images/Logo.svg";
 import {
   FaBars,
   FaTimes,
-  //  FaGithub, FaLinkedin
 } from "react-icons/fa";
 
 import { Link } from "react-router-dom";

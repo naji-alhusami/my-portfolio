@@ -1,13 +1,13 @@
-import GitHub from "../Images/Github.png";
-import HTML from "../Images/HTML.png";
-import CSS from "../Images/CSS.png";
-import Bootstrap from "../Images/Bootstrap.png";
-import TailwindCSS from "../Images/Tailwind.png";
-import JavaScript from "../Images/JavaScript.png";
-import TypeScript from "../Images/TypeScript.png";
-import ReactJS from "../Images/React.png";
-import Redux from "../Images/Redux.png";
-import Firebase from "../Images/Firebase.png";
+import GitHub from "../assets/Images/Github.png";
+import HTML from "../assets/Images/HTML.png";
+import CSS from "../assets/Images/CSS.png";
+import Bootstrap from "../assets/Images/Bootstrap.png";
+import TailwindCSS from "../assets/Images/Tailwind.png";
+import JavaScript from "../assets/Images/JavaScript.png";
+import TypeScript from "../assets/Images/TypeScript.png";
+import ReactJS from "../assets/Images/React.png";
+import Redux from "../assets/Images/Redux.png";
+import Firebase from "../assets/Images/Firebase.png";
 
 const SkillsData = [
   {

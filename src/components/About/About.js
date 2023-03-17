@@ -1,6 +1,6 @@
 import React from "react";
-import PersonalPhoto from "../Images/PersonalPhoto.jpg";
-import AboutCard from "../Cards/AboutCard";
+import PersonalPhoto from "../assets/Images/PersonalPhoto.jpg";
+import AboutProjectsCard from "../Cards/AboutProjectsCard";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -24,8 +24,10 @@ const About = () => {
 
   return (
     <div className=" w-screen flex flex-col justify-center items-center">
-      <h1 className="text-emerald-700 text-bold text-6xl my-3 p-4 border-b-4 border-amber-700">ABOUT ME</h1>
-      <AboutCard>
+      <h1 className="text-emerald-700 text-bold text-6xl my-3 p-4 border-b-4 border-amber-700">
+        ABOUT ME
+      </h1>
+      <AboutProjectsCard>
         <div className="flex flex-wrap lg:flex-nowrap h-auto">
           <div className="w-full lg:w-2/3 p-4 text-green-700 text-center">
             <motion.h1
@@ -65,7 +67,7 @@ const About = () => {
             <img src={PersonalPhoto} alt="my-pict" className="w-full h-full" />
           </div>
         </div>
-      </AboutCard>
+      </AboutProjectsCard>
     </div>
   );
 };

@@ -1,8 +1,8 @@
-import Madlibs from "../Images/Madlibs.PNG";
-import Hangman from "../Images/Hangman.PNG";
-import Movie from "../Images/Movie.PNG";
-import Foodorder from "../Images/Foodorder.PNG";
-import Therapist from "../Images/Therapist.PNG";
+import Madlibs from "../assets/Images/Madlibs.PNG";
+import Hangman from "../assets/Images/Hangman.PNG";
+import Movie from "../assets/Images/Movie.PNG";
+import Foodorder from "../assets/Images/Foodorder.PNG";
+import Therapist from "../assets/Images/Therapist.PNG";
 
 const ProjectsData = [
   {

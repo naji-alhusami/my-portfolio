@@ -2,10 +2,10 @@ import React from "react";
 
 import { motion } from "framer-motion";
 
-const HomeAndSkillsCard = (props) => {
+const SkillsContactCard = (props) => {
   return (
     <motion.div
-      className="shadow-md shadow-[#040c16]   border-4 border-emerald-500 text-green-800 my-2 lg:mt-12 w-11/12  lg:max-w-lg  rounded-lg shadow-lg bg-white"
+      className="shadow-md shadow-[#040c16]   border-4 border-emerald-500 text-green-800 mb-4 lg:mt-8 w-11/12  lg:max-w-lg  rounded-lg shadow-lg bg-white"
       initial={{
         opacity: 0,
         y: 0,
@@ -21,4 +21,4 @@ const HomeAndSkillsCard = (props) => {
   );
 };
 
-export default HomeAndSkillsCard;
+export default SkillsContactCard;
