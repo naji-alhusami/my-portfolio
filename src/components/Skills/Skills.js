@@ -8,8 +8,8 @@ const Skills = () => {
   return (
     <section name="skills" className="w-full bg-primary text-gray-300">
       <div className="max-w-[1000px] m-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="text-center w-60 mx-auto">
-          <h1 className="text-emerald-700 text-bold text-center text-6xl my-3 p-4 border-b-4 border-amber-700">
+        <div className="text-center mx-auto">
+          <h1 className="text-emerald-700 text-bold text-center text-6xl  p-4 border-b-4 border-amber-700">
             MY SKILLS
           </h1>
         </div>
