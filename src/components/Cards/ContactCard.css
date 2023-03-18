@@ -1,0 +1,6 @@
+@media (max-width: 640px) {
+  .card-style-xs {
+    width: 30rem;
+    margin: 2rem;
+  }
+}

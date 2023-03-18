@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsContactCard from "../Cards/SkillsContactCard";
+import ContactCard from "../Cards/ContactCard";
 import { motion } from "framer-motion";
 import Cover from "../assets/Images/Cover3.png";
 
@@ -9,8 +9,8 @@ const Contact = () => {
       <h1 className="text-emerald-700 text-bold text-6xl  p-4 border-b-4 border-amber-700">
         CONTACT ME
       </h1>
-      <div className=" flex xl:flex-row xl:m-2 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center lg:ml-16 mt-2 image-styles-s">
-        <SkillsContactCard>
+      <div className=" flex xl:flex-row xl:w-[90%] xl:my-8 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center  mt-2 image-styles-s">
+        <ContactCard>
           <form
             action="https://getform.io/f/dc37deaf-23cc-45aa-9d8d-9f8611294beb"
             method="POST"
@@ -52,17 +52,17 @@ const Contact = () => {
               Send
             </button>
           </form>
-        </SkillsContactCard>
+        </ContactCard>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 1.2 }}
-          className="flex xl:mr-56 xl:mt-20 xl:block lg:mr-16 lg:mt-20 lg:block md:mr-10 md:mt-10 md:block image-styles-s sm:hidden hidden"
+          transition={{ duration: 1 }}
+          className="flex xl:w-full xl:h-full xl:mt-0 xl:mr-0 xl:ml-32 xl:block  lg:m-10 lg:block md:m-10 md:hidden sm:hidden hidden"
         >
           <img
             src={Cover}
             alt="portfolio"
-            className="object-cover h-full w-full"
+            className="object-cover h-[22rem]"
             placeholder="blurred"
           />
         </motion.div>

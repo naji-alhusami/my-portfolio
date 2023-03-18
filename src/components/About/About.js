@@ -63,7 +63,7 @@ const About = () => {
               })}
             </motion.ul>
           </div>
-          <div className="w-full lg:w-1/3">
+          <div className="xl:w-full xl:w-1/3  order-first">
             <img src={PersonalPhoto} alt="my-pict" className="w-full h-full" />
           </div>
         </div>
