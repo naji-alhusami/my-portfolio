@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative bg-emerald-500 w-full h-[60px] flex justify-between items-center xl:px-0 lg:px-0 md:px-0 sm:px-20 z-10">
+    <nav className="relative bg-emerald-500 w-full h-[60px] flex justify-between items-center xl:px-0 lg:px-0 md:px-0 sm:px-20 xs:px-[4.5rem] z-10">
       <motion.div
         className="lg:px-[5rem] md:px-12 sm:pl-4"
         initial={{

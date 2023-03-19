@@ -16,7 +16,7 @@ const Home = () => {
           initial={{ x: -600 }}
           animate={{ x: 0 }}
           transition={{ delay: 0.2 }}
-          className="flex-1 flex flex-col justify-center text-left md:mb-8 md:ml-6 sm:mt-20 sm:ml-24 div-styles-xs"
+          className="flex-1 flex flex-col justify-center text-left md:mb-8 md:ml-6 sm:mt-20 sm:ml-24 xs:ml-[5rem] xs:mt-[5rem]"
         >
           <div className="bg-emerald-500 h-1 w-28 mb-6" alt="A line" />
           <motion.h1
