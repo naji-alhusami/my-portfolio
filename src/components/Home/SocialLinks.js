@@ -1,7 +1,9 @@
 import React from "react";
+
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+
 import CV from "../assets/CV.pdf";
 
 const SocialLinksData = [
@@ -27,7 +29,7 @@ const SocialLinksData = [
     image: (
       <AiOutlineMail className="text-emerald-500 hover:text-emerald-800"></AiOutlineMail>
     ),
-    url: "'mailto:najihussami@gmail.com'",
+    url: "mailto:najihussami@gmail.com",
   },
   {
     id: 4,

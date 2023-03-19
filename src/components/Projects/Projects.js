@@ -1,15 +1,16 @@
 import React from "react";
 
+import { motion, AnimatePresence } from "framer-motion";
+
 import AboutProjectsCard from "../Cards/AboutProjectsCard";
 import ProjectsData from "./ProjectsData";
-import { motion, AnimatePresence } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div className="h-full text-center ">
+    <div className="relative h-full text-center z-0">
       <div>
         <h1 className="inline-block text-emerald-700 text-bold text-center text-6xl my-3 p-4 border-b-4 border-amber-700">
-          MY PROJECTS
+          PROJECTS
         </h1>
       </div>
       <div className="flex flex-col justify-center">
@@ -67,14 +68,14 @@ const Projects = () => {
                         alt="my-pict"
                         className="w-full h-full"
                       />
-                      <div className="opacity-0 hover:opacity-100 absolute inset-0 bg-gray-900 flex justify-center items-center">
+                      <div className="flex justify-center items-center opacity-0 hover:opacity-90 absolute inset-0 bg-blue-800 transform opacity-0 transition duration-500">
                         <div className="text-center">
                           <a
                             href={project.code}
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:opacity-70 duration-300">
+                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg duration-300 hover:opacity-70">
                               CODE
                             </button>
                           </a>
@@ -83,7 +84,7 @@ const Projects = () => {
                             target="_blank"
                             rel="noreferrer"
                           >
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:opacity-70 duration-300">
+                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg duration-300 hover:opacity-70">
                               DEMO
                             </button>
                           </a>

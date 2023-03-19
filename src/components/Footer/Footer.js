@@ -1,17 +1,11 @@
 import React from "react";
-import {
-  //   AiTwotoneHeart,
-  AiOutlineArrowUp,
-  //   AiFillLinkedin,
-  //   AiFillGithub,
-} from "react-icons/ai";
-// import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import Logo from "../assets/Images/Logo.svg";
-import Button from "react-bootstrap/Button";
-import SocialLinks from "../Home/SocialLinks";
 
-// import "./style.css";
+import { AiOutlineArrowUp } from "react-icons/ai";
+import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
+
+import Logo from "../assets/Images/Logo.svg";
+import SocialLinks from "../Home/SocialLinks";
 
 const Footer = () => {
   const scrollTop = () => {
@@ -26,8 +20,8 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex flex-row">
-      <p className="text-bold mr-8">NAJI ALHUSAMI:</p>
-      <SocialLinks  />
+        <p className="text-bold mr-8">NAJI ALHUSAMI:</p>
+        <SocialLinks />
       </div>
       <Button
         onClick={scrollTop}

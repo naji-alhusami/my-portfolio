@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Logo from "../assets/Images/Logo.svg";
 import {
   FaBars,
   FaTimes,
 } from "react-icons/fa";
-
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+
+import Logo from "../assets/Images/Logo.svg";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-emerald-500 w-full h-[60px] flex justify-between items-center lg:px-0 px-[5rem]  z-2 ">
+    <nav className="relative bg-emerald-500 w-full h-[60px] flex justify-between items-center xl:px-0 lg:px-0 md:px-0 sm:px-20 z-10">
       <motion.div
         className="lg:px-[5rem] md:px-12 sm:pl-4"
         initial={{

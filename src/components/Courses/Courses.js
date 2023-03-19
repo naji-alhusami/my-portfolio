@@ -1,14 +1,14 @@
 import React from "react";
+
 import CoursesData from "./CoursesData";
 import CoursesCard from "../Cards/CoursesCard";
 
 const Courses = () => {
-
   return (
-    <div className="h-full overflow-auto">
+    <div className="relative h-full overflow-auto z-0">
       <div className="text-center">
         <h1 className="inline-block text-emerald-700 text-bold  text-6xl my-3 p-4 border-b-4 border-amber-700">
-          MY COURSES
+          COURSES
         </h1>
       </div>
       {CoursesData.map((course) => {

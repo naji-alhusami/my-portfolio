@@ -1,7 +1,9 @@
 import React from "react";
-import "./ContactCard.css";
 
 import { motion } from "framer-motion";
+
+import "./ContactCard.css";
+
 
 const ContactCard = (props) => {
   return (

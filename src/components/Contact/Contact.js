@@ -1,13 +1,15 @@
 import React from "react";
-import ContactCard from "../Cards/ContactCard";
+
 import { motion } from "framer-motion";
+
+import ContactCard from "../Cards/ContactCard";
 import Cover from "../assets/Images/Cover3.png";
 
 const Contact = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center">
+    <div className="relative w-full flex flex-col justify-center items-center z-0">
       <h1 className="text-emerald-700 text-bold text-6xl  p-4 border-b-4 border-amber-700">
-        CONTACT ME
+        CONTACT
       </h1>
       <div className=" flex xl:flex-row xl:w-[90%] xl:my-8 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center  mt-2 image-styles-s">
         <ContactCard>

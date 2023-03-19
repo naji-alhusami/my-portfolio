@@ -1,7 +1,8 @@
 import React from "react";
-import PersonalPhoto from "../assets/Images/PersonalPhoto.jpg";
-import AboutProjectsCard from "../Cards/AboutProjectsCard";
 import { motion } from "framer-motion";
+
+import AboutProjectsCard from "../Cards/AboutProjectsCard";
+import PersonalPhoto from "../assets/Images/PersonalPhoto.jpg";
 
 const About = () => {
   const AboutData = [
@@ -23,7 +24,7 @@ const About = () => {
   };
 
   return (
-    <div className=" w-screen flex flex-col justify-center items-center">
+    <div className="relative flex flex-col justify-center items-center z-0">
       <h1 className="text-emerald-700 text-bold text-6xl my-3 p-4 border-b-4 border-amber-700">
         ABOUT ME
       </h1>
@@ -63,8 +64,8 @@ const About = () => {
               })}
             </motion.ul>
           </div>
-          <div className="xl:w-full xl:w-1/3  order-first">
-            <img src={PersonalPhoto} alt="my-pict" className="w-full h-full" />
+          <div className="w-full lg:w-1/3 flex items-center justify-center relative order-first">
+            <img src={PersonalPhoto} alt="my-pict" className="rounded-full xl:ml-2 lg:ml-4 md:h-[30rem] md:mt-5 sm:h-[30rem] sm:mt-5" />
           </div>
         </div>
       </AboutProjectsCard>
