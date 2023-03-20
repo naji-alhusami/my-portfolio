@@ -11,7 +11,7 @@ const Contact = () => {
       <h1 className="text-emerald-700 text-bold text-6xl  p-4 border-b-4 border-amber-700">
         CONTACT
       </h1>
-      <div className=" flex xl:flex-row xl:w-[90%] xl:my-8 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center  mt-2 image-styles-s">
+      <div className=" flex xl:flex-row xl:w-[90%] xl:my-8 lg:flex-row lg:mt-2 md:flex-row md:mt-10 md:items-center mt-2">
         <ContactCard>
           <form
             action="https://getform.io/f/dc37deaf-23cc-45aa-9d8d-9f8611294beb"

@@ -28,8 +28,8 @@ const Projects = () => {
                 className="w-full"
               >
                 <AboutProjectsCard>
-                  <div className="flex flex-wrap lg:flex-nowrap h-auto">
-                    <div className="w-full lg:w-2/3 p-4 ">
+                  <div className="flex xl:flex-row md:flex-col sm:flex-col xs:flex-col lg:flex-nowrap h-auto">
+                    <div className="w-full xl:w-[200%] lg:w-2/3 p-4 ">
                       <h1 className="text-4xl font-bold mb-4 border-b-4 inline-block p-4 border-amber-700 text-green-700">
                         {project.name}
                       </h1>
@@ -49,7 +49,7 @@ const Projects = () => {
                         </span>
                         <span className="ml-2">{project.info}</span>
                       </h2>
-                      <div className="lg:hidden block">
+                      <div className="xl:hidden lg:hidden block">
                         <a href={project.code} target="_blank" rel="noreferrer">
                           <button className="px-4 py-3 m-2 text-black text-center font-bold text-lg rounded-lg  bg-emerald-500  hover:bg-emerald-700  hover:text-white duration-300">
                             CODE

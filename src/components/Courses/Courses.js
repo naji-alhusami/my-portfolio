@@ -15,7 +15,7 @@ const Courses = () => {
         const courseDescription = course.description.split("||");
         return (
           <CoursesCard course={course} key={course.id}>
-            <div className="flex flex-col sm:flex-row justify-between">
+            <div className="flex xl:flex-row xs:flex-col justify-between">
               <h1 className="text-2xl font-bold text-green-700 text-left m-4">
                 {course.name}
               </h1>
