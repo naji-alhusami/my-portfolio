@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -17,9 +14,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="relative bg-emerald-500 w-full h-[60px] flex justify-between items-center xl:px-0 lg:px-0 md:px-0 sm:px-20 xs:px-[4.5rem] z-10">
+    <nav className="relative bg-emerald-500 w-full h-[60px] flex justify-between items-center xl:px-0 lg:px-0 md:px-0 sm:px-20 xs:px-[1rem] z-10">
       <motion.div
-        className="lg:px-[5rem] md:px-12 sm:pl-4"
+        className="xl:px-[5rem] lg:px-[5rem] md:px-6 sm:pl-4"
         initial={{
           opacity: 0,
           x: -500,
@@ -36,7 +33,8 @@ const Navbar = () => {
       </motion.div>
       {/* menu */}
       <motion.ul
-        className="hidden md:flex text-lg"
+        // className="hidden md:flex text-lg"
+        className="sm:hidden xs:hidden flex text-lg"
         initial={{
           opacity: 0,
           x: 500,
@@ -109,14 +107,14 @@ const Navbar = () => {
         </Link>
       </motion.ul>
       <div
-        className="md:hidden z-10"
+        className="lg:hidden md:hidden xl:hidden z-10"
         onClick={() => {
           setNav(!nav);
         }}
       >
         {nav ? <FaTimes /> : <FaBars />}
       </div>
-      {/* mobile menu */}
+       {/* mobile menu  */}
       <motion.ul
         className={`${
           nav ? "absolute" : "hidden"

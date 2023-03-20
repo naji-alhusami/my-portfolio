@@ -12,7 +12,7 @@ const Skills = () => {
             SKILLS
           </h1>
         </div>
-        <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-1 text-center  px-8">
+        <div className="w-full mt-4 grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 gap-1 text-center px-8">
           {SkillsData.map((skill) => (
             <SkillsCard key={skill.id}>
               <img

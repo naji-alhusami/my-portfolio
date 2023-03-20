@@ -29,10 +29,10 @@ const About = () => {
         ABOUT ME
       </h1>
       <AboutProjectsCard>
-        <div className="flex flex-wrap lg:flex-nowrap h-auto">
-          <div className="w-full lg:w-2/3 p-4 text-green-700 text-center">
+        <div className="flex text-green-700 text-center w-full xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col p-4 ">
+          <div className="text-green-700 text-center p-4 xl:ml-6">
             <motion.h1
-              className="text-4xl  font-bold mb-4 inline-block p-4 border-4 border-amber-700"
+              className="text-4xl font-bold mb-4 inline-block p-4 border-4 border-amber-700"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
@@ -64,8 +64,12 @@ const About = () => {
               })}
             </motion.ul>
           </div>
-          <div className="w-full lg:w-1/3 flex items-center justify-center relative order-first">
-            <img src={PersonalPhoto} alt="my-pict" className="rounded-full xl:ml-2 lg:ml-4 md:h-[30rem] md:mt-5 sm:h-[30rem] sm:mt-5" />
+          <div className="flex items-center justify-center relative order-first w-full">
+            <img
+              src={PersonalPhoto}
+              alt="my-pict"
+              className="rounded-full xl:ml-2 lg:h-[28rem] lg:w-[30rem] lg:mt-[1rem] md:h-[30rem] md:mt-5 sm:h-[30rem] sm:mt-5"
+            />
           </div>
         </div>
       </AboutProjectsCard>
