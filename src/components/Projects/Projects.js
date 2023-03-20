@@ -28,8 +28,8 @@ const Projects = () => {
                 className="w-full"
               >
                 <AboutProjectsCard>
-                  <div className="flex xl:flex-row md:flex-col sm:flex-col xs:flex-col lg:flex-nowrap h-auto">
-                    <div className="w-full xl:w-[200%] lg:w-2/3 p-4 ">
+                  <div className="flex flex-col h-auto">
+                    <div className="w-full p-4 ">
                       <h1 className="text-4xl font-bold mb-4 border-b-4 inline-block p-4 border-amber-700 text-green-700">
                         {project.name}
                       </h1>
@@ -62,13 +62,13 @@ const Projects = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="w-full lg:w-1/3 relative">
+                    <div className="w-full relative bg-gray-300 ">
                       <img
                         src={project.image}
                         alt="my-pict"
                         className="w-full h-full"
                       />
-                      <div className="flex justify-center items-center opacity-0 hover:opacity-90 absolute inset-0 bg-blue-800 transform opacity-0 transition duration-500">
+                      <div className="flex justify-center items-center opacity-0 hover:opacity-100 absolute inset-0 bg-blue-800 transform opacity-0 transition duration-500">
                         <div className="text-center">
                           <a
                             href={project.code}
