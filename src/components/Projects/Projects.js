@@ -13,7 +13,8 @@ const Projects = () => {
           PROJECTS
         </h1>
       </div>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col grid grid-cols-2 xs:grid-cols-1 gap-1 justify-center">
+      {/* <div className="flex flex-col justify-center"> */}
         {ProjectsData.map((project) => {
           const projectDescription = project.description.split("||");
 
@@ -43,7 +44,7 @@ const Projects = () => {
                         </span>
                         <span className="ml-2">{project.technologies}</span>
                       </h2>
-                      <h2 className="text-xl text-left mb-4">
+                      <h2 className="text-xl xs:text-md text-left mb-4">
                         <span className="font-bold inline-block mr-1">
                           Important Information:
                         </span>
@@ -62,11 +63,11 @@ const Projects = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="w-full relative bg-gray-300 ">
+                    <div className="w-full h-[20rem] relative bg-gray-300 ">
                       <img
                         src={project.image}
                         alt="my-pict"
-                        className="w-full h-full"
+                        className="w-full h-[20rem]"
                       />
                       <div className="flex justify-center items-center opacity-0 hover:opacity-100 absolute inset-0 bg-blue-800 transform opacity-0 transition duration-500">
                         <div className="text-center">
