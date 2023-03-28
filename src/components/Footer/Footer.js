@@ -18,9 +18,9 @@ const Footer = () => {
         {/* <Link to="/">
           <img src={Logo} alt="logo" className="w-[60px]" />
         </Link> */}
+        <p className="text-xl text-bold mr-8 xs:hidden">NAJI ALHUSAMI</p>
       </div>
       <div className="flex flex-row">
-        <p className="text-bold mr-8 xs:hidden">NAJI ALHUSAMI:</p>
         <SocialLinks />
       </div>
       <Button
