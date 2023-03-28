@@ -1,10 +1,10 @@
 import React from "react";
 
 import { AiOutlineArrowUp } from "react-icons/ai";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
-import Logo from "../assets/Images/Logo.svg";
+// import Logo from "../assets/Images/Logo.svg";
 import SocialLinks from "../Home/SocialLinks";
 
 const Footer = () => {
