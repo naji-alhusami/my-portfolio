@@ -15,9 +15,9 @@ const Footer = () => {
   return (
     <footer className=" shadow-xl bg-[#f0abfc] w-full h-[60px] flex justify-between items-center lg:px-0  z-2 ">
       <div className="xl:ml-[4rem] lg:ml-[4rem] md:ml-5 sm:pl-4">
-        <Link to="/">
+        {/* <Link to="/">
           <img src={Logo} alt="logo" className="w-[60px]" />
-        </Link>
+        </Link> */}
       </div>
       <div className="flex flex-row">
         <p className="text-bold mr-8 xs:hidden">NAJI ALHUSAMI:</p>
