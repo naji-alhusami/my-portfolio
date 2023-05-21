@@ -8,7 +8,7 @@ const ProjectsData = [
   {
     id: 1,
     name: "Online Therapist",
-    technologies: "HTML, TailwindCSS, Reactjs, Redux Toolkit, Firebase.",
+    technologies: "HTML, TailwindCSS, React.js, Redux Toolkit, Firebase.",
     description:
       "Online Therapist project allows users to signup/login to take an appointment with a therapist and buy therapy sessions. ",
     image: Therapist,
@@ -20,7 +20,7 @@ const ProjectsData = [
     id: 2,
     name: "Health Centers",
     technologies:
-      "HTML, TailwindCSS, Reactjs, Redux toolkit, Firebase, Leaflet Library.",
+      "HTML, TailwindCSS, React.js, Redux toolkit, Firebase, Leaflet Library.",
     description:
       "The Health Centers Application enables users to conveniently sign up or log in using their email or Google accounts. It offers the ability to add or remove health centers to a map and table. Additionally, the map showcasing all the health centers is accessible to the public without requiring a login.",
     image: Therapist,
@@ -31,7 +31,7 @@ const ProjectsData = [
   {
     id: 3,
     name: "Online Food Order",
-    technologies: "HTML, CSS, Reactjs, Firebase.",
+    technologies: "HTML, CSS, React.js, Firebase.",
     description:
       "The online food ordering application is designed to streamline the process of ordering food through a website. Users can select the desire items from the menu, add them to the cart,  proceed to place an order and pay with card.",
     image: Foodorder,
@@ -45,9 +45,9 @@ const ProjectsData = [
     technologies:
       "HTML, CSS, Bootstrap, Vanilla JavaScript, Movie Database API.",
     description:
-      "This project allows us to fetch the newest movies and actors from the Movie Database API (TMDB) which is a community-built movie and TV DB. In addition, we can filter the movies or actors and search for them. Also, we can reach the details of each movie and actor. ",
+      "This project allows us to search for the newest Movies and actors from Movie Database (TMDB) which is a community-built movie and TV DB.",
     image: Movie,
-    info: "I built this website with a team, we were four working on this project, I took the movies part with by fetching it from the API and I made the details movies pages. I learned how to use Vanilla JavaScript, how to fetch data from API and how to use Bootstrap. In addition, I led my team through one week of project. By working with a team, it increased my potential for innovation.",
+    info: "- Practiced DOM manipulation and 3rd party APIs. || - led my team, assigned tasks and responsibilities to each team member.",
     code: "https://github.com/Recoded-Spark-Turkey-2022/movie-project-cinemadev",
     demo: "https://dreamy-crisp-010301.netlify.app",
   },
@@ -58,7 +58,7 @@ const ProjectsData = [
     technologies: "HTML, Vanilla JavaScript.",
     description: "This project about the famous Hangman game.",
     image: Hangman,
-    info: "I built this website with a team, we were three working on this project. We built the project together using Vanilla JavaScript with simple styling to practice more on JavaScript. I learned how to use Vanilla JavaScript. By working with a team, I gained the teamwork and communication skills.",
+    info: "- led my team, assigned tasks and responsibilities to each team member. || - Project built using Vanilla JavaScript with simple styling to practice on Vanilla JavaScript.",
     code: "https://github.com/naji-alhusami/hangman-executioner",
     demo: "https://dashing-kashata-d04ee6.netlify.app",
   },
@@ -67,9 +67,9 @@ const ProjectsData = [
     name: "Madlibs",
     technologies: "HTML, CSS, Vanilla JavaScript, Regular Expressions.",
     description:
-      "The Mad Libs is a phrasal template word game. The project has two articles that allow us to fill in one of them and it will fill the second article automatically.",
+      "The Mad Libs project is a phrasal template word game that involves two articles. One article allows users to fill in the blanks, and based on their input, the second article is automatically filled.",
     image: Madlibs,
-    info: "I built this website with a team, we were three working on this project. We built the project together using Vanilla JavaScript with CSS to practice on JavaScript. I learned how to use Vanilla JavaScript. By working with a team, I gained the teamwork and communication skills.",
+    info: "- led my team, assigned tasks and responsibilities to each team member.",
     code: "https://github.com/naji-alhusami/mad-libs-lorem-ipsum",
     demo: "https://polite-bunny-029d94.netlify.app",
   },
