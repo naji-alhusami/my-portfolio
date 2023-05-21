@@ -8,11 +8,11 @@ const ProjectsData = [
   {
     id: 1,
     name: "Online Therapist",
-    technologies: "HTML, TailwindCSS, Reactjs, Redux toolkit, Firebase.",
+    technologies: "HTML, TailwindCSS, Reactjs, Redux Toolkit, Firebase.",
     description:
-      "This project will allow users to schedule an appointment with a therapist and take therapy sessions online through chat, video, and voice calls. Users can search for information on the website, and also there will be tests or therapist activities for users. ",
+      "Online Therapist project allows users to signup/login to take an appointment with a therapist and buy therapy sessions. ",
     image: Therapist,
-    info: "I built this website with a team, we were three working on this project, I took React Redux toolkit part which includes login user with sign up and update information after signup. I learned how to use Redux toolkit which was the most important part, and how to use Tailwind. In addition, I led my team for two weeks out of 8 weeks working on this project. By working with a team, I was allowed to take smarter risk.",
+    info: "- Worked with Figma design tools to translate design concepts into functional user interfaces. || - Member of the Re-coded graduation project team, specifically responsible for the Redux toolkit implementation. || - Led the team for whole project duration. || - Conducted daily meetings with team members to discuss progress and coordinate efforts. || - Facilitated weekly meetings with our senior developers in Re-Coded to seek guidance. || - Took charge of the presentation for our team project, showcasing the key features, functionalities to our trainers.",
     code: "https://github.com/Recoded-Spark-Turkey-2022/Code-Wars-Capstone",
     demo: "https://code-wars.netlify.app/",
   },

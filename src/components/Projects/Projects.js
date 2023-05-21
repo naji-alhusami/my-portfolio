@@ -14,9 +14,10 @@ const Projects = () => {
         </h1>
       </div>
       <div className="flex flex-col grid grid-cols-2 xs:grid-cols-1 gap-1 justify-center">
-      {/* <div className="flex flex-col justify-center"> */}
+        {/* <div className="flex flex-col justify-center"> */}
         {ProjectsData.map((project) => {
-          const projectDescription = project.description.split("||");
+          const projectDescription = project.info.split("||");
+          console.log(projectDescription);
 
           return (
             <AnimatePresence>
@@ -36,7 +37,7 @@ const Projects = () => {
                       </h1>
 
                       <p className="p-4 border-2 border-green-900 text-green-900 bg-white text-lg mb-4">
-                        {projectDescription}
+                        {project.description}
                       </p>
                       <h2 className="text-xl text-left mb-4">
                         <span className="font-bold inline-block mr-1">
@@ -48,7 +49,11 @@ const Projects = () => {
                         <span className="font-bold inline-block mr-1">
                           Important Information:
                         </span>
-                        <span className="ml-2">{project.info}</span>
+                        <ul className="ml-2">
+                          {projectDescription.map((project) => (
+                            <li key={project.id}>{project}</li>
+                          ))}
+                        </ul>
                       </h2>
                       <div className="xl:hidden lg:hidden block">
                         <a href={project.code} target="_blank" rel="noreferrer">
