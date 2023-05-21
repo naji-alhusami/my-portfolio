@@ -3,6 +3,7 @@ import Hangman from "../assets/Images/Hangman.PNG";
 import Movie from "../assets/Images/Movie.PNG";
 import Foodorder from "../assets/Images/Foodorder.PNG";
 import Therapist from "../assets/Images/Therapist.PNG";
+import bg from "../assets/Images/bg.PNG";
 
 const ProjectsData = [
   {
@@ -20,10 +21,10 @@ const ProjectsData = [
     id: 2,
     name: "Health Centers",
     technologies:
-      "HTML, TailwindCSS, React.js, Redux toolkit, Firebase, Leaflet Library.",
+      "HTML, TailwindCSS, React.js, Redux toolkit, Firebase, Leaflet Library, Nominatim API",
     description:
       "The Health Centers Application enables users to conveniently sign up or log in using their email or Google accounts. It offers the ability to add or remove health centers to a map and table. Additionally, the map showcasing all the health centers is accessible to the public without requiring a login.",
-    image: Therapist,
+    image: bg,
     info: "- Applied the insights and guidance from the Firebase documentation. || - Implemented Leaflet, an interactive mapping library, to deliver dynamic and customizable map functionalities. || - The Health Centers Application showcases my expertise in creating intuitive and interactive interfaces while addressing the specific needs of users in the healthcare sector.",
     code: "https://github.com/naji-alhusami/health-center-app",
     demo: "https://health-centers-app.netlify.app/",
