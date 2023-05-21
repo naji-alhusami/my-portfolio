@@ -6,11 +6,13 @@ import PersonalPhoto from "../assets/Images/PersonalPhoto.jpg";
 
 const About = () => {
   const AboutData = [
-    "- I'm a Front-End Development living in Istanbul with a Bachelor Degree in Information Systems Engineering from Eastern Mediterranean University (Northern Cyprus) and Master Degree in Computer Engineering from Bahçeşehir University (Istanbul, Turkey).",
-    "- During my university life, I gained the theoretical part in many programming languages.",
-    "- To start improving myself in Front-End field, I took many courses in Udemy Platform during my Master Degree.",
-    "- After I hold my Master Degree, I joined Re-Coded which helped me applying my theoretical knowledge through many projects that improved my ability in programming. Re-Coded made us dive deeper in (HTML, CSS, BOOTSTRAP, TAILWIND, JAVASCRIPT, REACTJS, REDUX TOOLKIT).",
-    "- The most important part of my experience when I joined UNDP (SDG AI LAB) in Istanbul, They were building Radar Digital Technology web application using TypeScript. I helped them during the last part of building the project and then in deploying their website.",
+    "- I am a Front-End Developer based in Istanbul. I hold a Bachelor's Degree in Information Systems Engineering from Eastern Mediterranean University in Northern Cyprus and a Master's Degree in Computer Engineering from Bahçeşehir University in Istanbul, Turkey.",
+    "- During my university studies, I gained theoretical knowledge in multiple programming languages.",
+    "- To enhance my skills in the Front-End field, I pursued various courses on Udemy during my Master's Degree.",
+    "- Following the completion of my Master's Degree, I joined Re-Coded, where I applied my theoretical knowledge through numerous projects. This experience significantly improved my programming abilities, specifically in (HTML, CSS, Bootstrap, Tailwind, JavaScript, React.js, Redux Toolkit).",
+    "- A significant milestone in my career was joining UNDP (SDG AI LAB) in Istanbul. I contributed to the development and deployment of the Radar Digital Technology web application using React.js & TypeScript.",
+    "- I stay up-to-date with the latest technologies, ensuring that I can consistently deliver innovative and cutting-edge solutions.",
+    "- Adept at multitasking and managing competing priorities."
   ];
 
   const containerVariants = {
@@ -40,7 +42,7 @@ const About = () => {
               NAJI ALHUSAMI
             </motion.h1>
             <motion.h3 className="text-2xl font-bold mb-4">
-              Front-End Development
+              Front-End Developer
             </motion.h3>
             <motion.ul
               variants={containerVariants}
@@ -48,7 +50,7 @@ const About = () => {
               animate="visible"
             >
               <motion.li variants={itemVariants} className="text-lg mb-4">
-                HI, My name is <b>NAJI ALHUSAMI</b> I am passionate about
+                Hi, My name is <b>NAJI ALHUSAMI</b> I am passionate about
                 building excellent websites that improves the lives of those
                 around me.
               </motion.li>
