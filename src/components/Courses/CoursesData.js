@@ -32,6 +32,12 @@ const CoursesData = [
   },
   {
     id: 6,
+    name: "Next.js & React - The Complete Guide",
+    description: "- Learn pre-rendering NextJS feature. || - Learn SSR NextJS feature. || - Learn data fetching NextJS feature. || - Learn file-based routing NextJS Feature. || - Learn how to build client-side and fullstack ReactJS apps with NextJS. || - Building Projects.",
+    certificate: "https://www.udemy.com/certificate/UC-d0c1efa0-3254-434e-a2ee-88eb3f0b7c70/",
+  },
+  {
+    id: 7,
     name: "Gatsby.js Tutorial and Projects Course",
     description: "- Installing Gatsbyjs. || - Learn Gatsbyjs. || - Building Projects.",
     certificate: "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
