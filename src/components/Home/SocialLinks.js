@@ -23,14 +23,6 @@ const SocialLinksData = [
     ),
     url: "https://github.com/naji-alhusami",
   },
-  // {
-  //   id: 3,
-  //   name: "Email: ",
-  //   image: (
-  //     <AiOutlineMail className="text-emerald-500 hover:text-emerald-800"></AiOutlineMail>
-  //   ),
-  //   url: "mailto:najihussami@gmail.com",
-  // },
   {
     id: 3,
     name: "Resume: ",
