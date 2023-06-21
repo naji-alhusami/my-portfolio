@@ -15,7 +15,7 @@ const ProjectsData = [
     image: Therapist,
     info: "- Worked with Figma design tools to translate design concepts into functional user interfaces. || - Member of the Re-coded graduation project team, specifically responsible for the Redux toolkit implementation. || - Led the team for whole project duration. || - Conducted daily meetings with team members to discuss progress and coordinate efforts. || - Facilitated weekly meetings with our senior developers in Re-Coded to seek guidance. || - Took charge of the presentation for our team project, showcasing the key features, functionalities to our trainers.",
     code: "https://github.com/naji-alhusami/Online-Therapist",
-    demo: "https://code-wars.netlify.app/",
+    demo: "https://onlinetherapist.netlify.app/",
   },
   {
     id: 2,
