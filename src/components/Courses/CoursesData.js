@@ -42,6 +42,18 @@ const CoursesData = [
     description: "- Installing Gatsbyjs. || - Learn Gatsbyjs. || - Building Projects.",
     certificate: "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
   },
+  {
+    id: 8,
+    name: "Cisco Certified Network Associate (CCNA)",
+    description: "- Protocol layers in data networks. || - apply subnet masks and addresses in IPv4 and IPv6 networks. || - Implement VLANs, RIPv2, DHCP, NAT, ACLs, RSTP, PVST+ and HSRP. || - Single-area OSPF,multi-area OSPF and EIGRP.",
+    // certificate: "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
+  },
+  {
+    id: 9,
+    name: "Microsoft Certified Solutions Associate (MCSA)",
+    description: "- TCP/IP, IPv4 and IPv6. || - Windows Server 2019. || - Windows Core. || - Active Directory. || - User Automation. || - Windows Admin Center and Disk Management.",
+    // certificate: "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
+  },
 ];
 
 export default CoursesData;

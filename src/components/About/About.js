@@ -6,13 +6,14 @@ import PersonalPhoto from "../assets/Images/PersonalPhoto.jpg";
 
 const About = () => {
   const AboutData = [
-    "- I am a Front-End Developer based in Istanbul. I hold a Bachelor's Degree in Information Systems Engineering from Eastern Mediterranean University in Northern Cyprus and a Master's Degree in Computer Engineering from Bahçeşehir University in Istanbul, Turkey.",
+    "- I am a Front-End Developer & IT Help Desk based in Istanbul. I hold a Bachelor's Degree in Information Systems Engineering from Eastern Mediterranean University in Northern Cyprus and a Master's Degree in Computer Engineering from Bahçeşehir University in Istanbul, Turkey.",
     "- During my university studies, I gained theoretical knowledge in multiple programming languages.",
     "- To enhance my skills in the Front-End field, I pursued various courses on Udemy during my Master's Degree.",
     "- Following the completion of my Master's Degree, I joined Re-Coded, where I applied my theoretical knowledge through numerous projects. This experience significantly improved my programming abilities, specifically in (HTML, CSS, Bootstrap, Tailwind, JavaScript, React.js, Redux Toolkit).",
     "- A significant milestone in my career was joining UNDP (SDG AI LAB) in Istanbul. I contributed to the development and deployment of the Radar Digital Technology web application using React.js & TypeScript.",
+    "- In addition to my proficiency in Front-End technologies, I also possess a solid understanding of hardware and networking. I attended the CCNA course in the esteemed CISCO Lab and undertook an internship concurrently to enhance my skills further. Furthermore, I expanded my knowledge by participating in the MCSA course through Youtube.",
     "- I stay up-to-date with the latest technologies, ensuring that I can consistently deliver innovative and cutting-edge solutions.",
-    "- Adept at multitasking and managing competing priorities."
+    "- Adept at multitasking and managing competing priorities.",
   ];
 
   const containerVariants = {
@@ -42,7 +43,7 @@ const About = () => {
               NAJI ALHUSAMI
             </motion.h1>
             <motion.h3 className="text-2xl font-bold mb-4">
-              Front-End Developer
+              Front-End Developer & IT Help Desk
             </motion.h3>
             <motion.ul
               variants={containerVariants}
@@ -50,9 +51,10 @@ const About = () => {
               animate="visible"
             >
               <motion.li variants={itemVariants} className="text-lg mb-4">
-                Hi, My name is <b>NAJI ALHUSAMI</b> I am passionate about
+                Hi, My name is <b>NAJI ALHUSAMI</b>
+                {/* I am passionate about
                 building excellent websites that improves the lives of those
-                around me.
+                around me. */}
               </motion.li>
               {AboutData.map((data) => {
                 return (

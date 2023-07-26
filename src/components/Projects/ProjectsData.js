@@ -3,7 +3,7 @@ import Hangman from "../assets/Images/Hangman.PNG";
 import Movie from "../assets/Images/Movie.PNG";
 import Foodorder from "../assets/Images/Foodorder.PNG";
 import Therapist from "../assets/Images/Therapist.PNG";
-import bg from "../assets/Images/bg.PNG";
+import Iconic from "../assets/Images/Iconic.PNG";
 
 const ProjectsData = [
   {
@@ -24,7 +24,7 @@ const ProjectsData = [
       "HTML, TailwindCSS, React.js, Redux toolkit, Firebase, Leaflet Library, Nominatim API",
     description:
       "Iconic Places (Istanbul) is a user-friendly app that allows people to discover and share the most beautiful spots in the city. Users can sign up to add their favorite places, enabling others to explore and visit these locations without the need for logging in.",
-    image: bg,
+    image: Iconic,
     info: "- Applied the insights and guidance from the Firebase documentation. || - Implemented Leaflet, an interactive mapping library, to deliver dynamic and customizable map functionalities. || - Demonstrated strong problem-solving skills. || - Developed the application from scratch as a sole contributor.",
     code: "https://github.com/naji-alhusami/iconic-istanbul-app",
     demo: "https://iconic-istanbul-app.netlify.app/",
