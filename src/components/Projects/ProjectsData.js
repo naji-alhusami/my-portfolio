@@ -31,14 +31,15 @@ const ProjectsData = [
   },
   {
     id: 3,
-    name: "Online Food Order",
-    technologies: "HTML, CSS, React.js, Firebase.",
+    name: "Food2Door App",
+    technologies: "HTML, CSS, TypeScript, Next.js, MongoDB.",
     description:
       "The online food ordering application is designed to streamline the process of ordering food through a website. Users can select the desire items from the menu, add them to the cart,  proceed to place an order and pay with card.",
     image: Foodorder,
-    info: "- Conducted thorough testing and debugging to deliver a stable and error-free application. || - Demonstrated strong problem-solving skills. || - Developed the application from scratch as a sole contributor, handling all aspects of the single project.",
-    code: "https://github.com/naji-alhusami/food-order-project",
-    demo: "https://online-food-order-reactjs.netlify.app",
+    info: "Ongoing Project",
+    // info: "- Conducted thorough testing and debugging to deliver a stable and error-free application. || - Demonstrated strong problem-solving skills. || - Developed the application from scratch as a sole contributor, handling all aspects of the single project.",
+    code: "",
+    demo: "",
   },
   {
     id: 4,
