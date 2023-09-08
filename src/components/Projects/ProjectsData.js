@@ -1,7 +1,8 @@
 import Madlibs from "../assets/Images/Madlibs.PNG";
 import Hangman from "../assets/Images/Hangman.PNG";
 import Movie from "../assets/Images/Movie.PNG";
-import Foodorder from "../assets/Images/Foodorder.PNG";
+// import Foodorder from "../assets/Images/Foodorder.PNG";
+import Tennis from "../assets/Images/tennis.PNG";
 import Therapist from "../assets/Images/Therapist.PNG";
 import Iconic from "../assets/Images/Iconic.PNG";
 
@@ -35,7 +36,7 @@ const ProjectsData = [
     technologies: "HTML, CSS, Next.js, Next-Auth, API Routes, MongoDB.",
     description:
       "Tennis Club: An app for users to sign up/login, book courts, find playing partners, access training sessions, and exploretennis-related blogs.",
-    // image: Foodorder,
+    image: Tennis,
     info: "Ongoing Project",
     // info: "- Conducted thorough testing and debugging to deliver a stable and error-free application. || - Demonstrated strong problem-solving skills. || - Developed the application from scratch as a sole contributor, handling all aspects of the single project.",
     code: "",
