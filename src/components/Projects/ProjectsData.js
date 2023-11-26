@@ -33,14 +33,14 @@ const ProjectsData = [
   {
     id: 3,
     name: "Tennis Club App",
-    technologies: "HTML, CSS, Next.js, Next-Auth, API Routes, MongoDB.",
+    technologies:
+      "HTML, CSS, Next.js 14, Next-Auth, API Routes, Server Actions and MongoDB.",
     description:
-      "Tennis Club: An app for users to sign up/login, book courts, find playing partners, access training sessions, and exploretennis-related blogs.",
+      "Tennis Club: An app for users to sign up/login, book courts, find playing partners, access training sessions, and check calendar for user and club.",
     image: Tennis,
-    info: "Ongoing Project",
-    // info: "- Conducted thorough testing and debugging to deliver a stable and error-free application. || - Demonstrated strong problem-solving skills. || - Developed the application from scratch as a sole contributor, handling all aspects of the single project.",
-    code: "",
-    demo: "",
+    info: "- Practice on Nextjs 14 (Server Actions and API Routes). || - Practice using Next-Auth. || - Practice using MongoDB.",
+    code: "https://github.com/naji-alhusami/Tennis-Net-Club",
+    demo: "https://tennis-net-club.vercel.app/",
   },
   {
     id: 4,
