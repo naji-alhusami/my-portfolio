@@ -13,7 +13,7 @@ const SocialLinksData = [
     image: (
       <FaLinkedin className="text-blue-600 hover:text-blue-900"></FaLinkedin>
     ),
-    url: "https://www.linkedin.com/in/naji-alhusami-b629b01a4/",
+    url: "https://www.linkedin.com/in/naji-alhusami/",
   },
   {
     id: 2,
