@@ -63,6 +63,14 @@ const CoursesData = [
     certificate:
       "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
   },
+  {
+    id: 9,
+    name: "React Native - The Practical Guide [2023]",
+    description:
+      "- Learn how to use ReactJS to build real native mobile apps for iOS and Android. || - Develop cross-platform (iOS and Android) mobile apps without knowing Swift, ObjectiveC or Java/ Android. || - Explore React Native basics and advanced features. || - Learn how to use key mobile app features like Google maps or the device camera",
+    certificate:
+      "https://udemy-certificate.s3.amazonaws.com/pdf/UC-453e35ef-5c02-4220-a804-4f8e9e77b1ca.pdf",
+  },
 ];
 
 export default CoursesData;
