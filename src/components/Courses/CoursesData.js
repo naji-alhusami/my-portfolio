@@ -57,11 +57,11 @@ const CoursesData = [
   },
   {
     id: 8,
-    name: "Gatsby.js Tutorial and Projects Course",
+    name: "React, NodeJS, Express & MongoDB - The MERN Fullstack Guide",
     description:
-      "- Installing Gatsbyjs. || - Learn Gatsbyjs. || - Building Projects.",
+      "- Learn how to connect ReactJS with NodeJS, Express & MongoDB. || - Refresh the basics about ReactJS, NodeJS, Express and MongoDB. || - Add File Upload to ReactJS + Node/ Express Applications. || - Learn how to implement Authentication & Authorization.",
     certificate:
-      "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
+      "https://udemy-certificate.s3.amazonaws.com/pdf/UC-4d5b225c-0818-413c-be1e-aba991d68b11.pdf",
   },
   {
     id: 9,
@@ -70,6 +70,14 @@ const CoursesData = [
       "- Learn how to use ReactJS to build real native mobile apps for iOS and Android. || - Develop cross-platform (iOS and Android) mobile apps without knowing Swift, ObjectiveC or Java/ Android. || - Explore React Native basics and advanced features. || - Learn how to use key mobile app features like Google maps or the device camera",
     certificate:
       "https://udemy-certificate.s3.amazonaws.com/pdf/UC-453e35ef-5c02-4220-a804-4f8e9e77b1ca.pdf",
+  },
+  {
+    id: 10,
+    name: "Gatsby.js Tutorial and Projects Course",
+    description:
+      "- Installing Gatsbyjs. || - Learn Gatsbyjs. || - Building Projects.",
+    certificate:
+      "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
   },
 ];
 
