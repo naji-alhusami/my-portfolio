@@ -14,13 +14,13 @@ const ProjectsData = [
     description:
       "Online Therapist project allows users to signup/login to take an appointment with a therapist and buy therapy sessions. ",
     image: Therapist,
-    info: "- Worked with Figma design tools to translate design concepts into functional user interfaces. || - Member of the Re-coded graduation project team, specifically responsible for the Redux toolkit implementation. || - Led the team for whole project duration. || - Conducted daily meetings with team members to discuss progress and coordinate efforts. || - Facilitated weekly meetings with our senior developers in Re-Coded to seek guidance. || - Took charge of the presentation for our team project, showcasing the key features, functionalities to our trainers.",
+    info: "- Worked with Figma design tools to translate design concepts into functional user interfaces. || - Member of the Re-coded graduation project team, specifically responsible for the Redux toolkit. || - Led the team for whole project duration. || - Conducted daily meetings with team members to discuss progress and coordinate efforts. || - Facilitated weekly meetings with our senior developers in Re-Coded to seek guidance. || - Took charge of the presentation for our team project.",
     code: "https://github.com/naji-alhusami/Online-Therapist",
     demo: "https://onlinetherapist.netlify.app/",
   },
   {
     id: 2,
-    name: "Iconic Places (Istanbul)",
+    name: "Iconic Places",
     technologies:
       "HTML, TailwindCSS, React.js, Redux toolkit, Firebase, Leaflet Library, Nominatim API",
     description:
@@ -61,7 +61,7 @@ const ProjectsData = [
     technologies: "HTML, Vanilla JavaScript.",
     description: "This project about the famous Hangman game.",
     image: Hangman,
-    info: "- led my team, assigned tasks and responsibilities to each team member. || - Project built using Vanilla JavaScript with simple styling to practice on Vanilla JavaScript.",
+    info: "- led my team, assigned tasks to each team member. || - Project built using Vanilla JavaScript with simple styling to practice on Vanilla JavaScript.",
     code: "https://github.com/naji-alhusami/hangman-executioner",
     demo: "https://dashing-kashata-d04ee6.netlify.app",
   },
@@ -70,7 +70,7 @@ const ProjectsData = [
     name: "Madlibs",
     technologies: "HTML, CSS, Vanilla JavaScript, Regular Expressions.",
     description:
-      "The Mad Libs project is a phrasal template word game that involves two articles. One article allows users to fill in the blanks, and based on their input, the second article is automatically filled.",
+      "This project about the famous Mad Libs.",
     image: Madlibs,
     info: "- led my team, assigned tasks and responsibilities to each team member.",
     code: "https://github.com/naji-alhusami/mad-libs-lorem-ipsum",
