@@ -6,7 +6,7 @@ import PersonalPhoto from "../assets/Images/PersonalPhoto.jpg";
 
 const About = () => {
   const AboutData = [
-    "- I am a Front-End Developer based in Germany. I hold a Bachelor's Degree in Information Systems Engineering from Eastern Mediterranean University in Northern Cyprus and a Master's Degree in Computer Engineering from Bahçeşehir University in Istanbul, Turkey.",
+    "- I am a Frontend Developer based in Germany. I hold a Bachelor's Degree in Information Systems Engineering from Eastern Mediterranean University in Northern Cyprus and a Master's Degree in Computer Engineering from Bahçeşehir University in Istanbul, Turkey.",
     "- During my university studies, I gained theoretical knowledge in multiple programming languages.",
     "- To enhance my skills in the Front-End field, I pursued various courses on Udemy during my Master's Degree.",
     "- Following the completion of my Master's Degree, I joined Re-Coded, where I applied my theoretical knowledge through numerous projects. This experience significantly improved my programming abilities, specifically in (HTML, CSS, Bootstrap, TailwindCSS, JavaScript, TypeScript, React.js, Redux Toolkit, Next.js 14).",
@@ -42,7 +42,7 @@ const About = () => {
               NAJI ALHUSAMI
             </motion.h1>
             <motion.h3 className="text-2xl font-bold mb-4">
-              Front-End Developer
+              Frontend Developer
             </motion.h3>
             <motion.ul
               variants={containerVariants}

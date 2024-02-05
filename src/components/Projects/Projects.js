@@ -13,7 +13,7 @@ const Projects = () => {
           PROJECTS
         </h1>
       </div>
-      <div className="flex flex-col grid grid-cols-2 xs:grid-cols-1 gap-1 justify-center">
+      <div className="flex flex-col gap-1 justify-center">
         {/* <div className="flex flex-col justify-center"> */}
         {ProjectsData.map((project) => {
           const projectDescription = project.info.split("||");
@@ -55,7 +55,7 @@ const Projects = () => {
                           ))}
                         </ul>
                       </h2>
-                      <div className="xl:hidden lg:hidden block">
+                      <div className="block">
                         <a href={project.code} target="_blank" rel="noreferrer">
                           <button className="px-4 py-3 m-2 text-black text-center font-bold text-lg rounded-lg  bg-emerald-500  hover:bg-emerald-700  hover:text-white duration-300">
                             CODE
@@ -68,13 +68,13 @@ const Projects = () => {
                         </a>
                       </div>
                     </div>
-                    <div className="w-full h-[20rem] relative bg-gray-300 ">
-                      <img
+                    {/* <div className="w-full h-[20rem] relative bg-gray-300 "> */}
+                      {/* <img
                         src={project.image}
                         alt="my-pict"
                         className="w-full h-[20rem]"
-                      />
-                      <div className="flex justify-center items-center opacity-0 hover:opacity-100 absolute inset-0 bg-blue-800 transform opacity-0 transition duration-500">
+                      /> */}
+                      {/* <div className="flex justify-center items-center opacity-0 hover:opacity-100 absolute inset-0 bg-blue-800 transform opacity-0 transition duration-500">
                         <div className="text-center">
                           <a
                             href={project.code}
@@ -95,8 +95,8 @@ const Projects = () => {
                             </button>
                           </a>
                         </div>
-                      </div>
-                    </div>
+                      </div> */}
+                    {/* </div> */}
                   </div>
                 </AboutProjectsCard>
               </motion.div>
