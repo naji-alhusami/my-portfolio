@@ -34,17 +34,17 @@ const SocialLinksData = [
   //   ),
   //   url: CV,
   // },
-  {
-    id: 3,
-    name: "Resume: ",
-    image: (
-      <BsFillPersonLinesFill
-        download
-        className="text-gray-600 hover:text-gray-800"
-      ></BsFillPersonLinesFill>
-    ),
-    url: CV,
-  },
+  // {
+  //   id: 3,
+  //   name: "Resume: ",
+  //   image: (
+  //     <BsFillPersonLinesFill
+  //       download
+  //       className="text-gray-600 hover:text-gray-800"
+  //     ></BsFillPersonLinesFill>
+  //   ),
+  //   url: CV,
+  // },
 ];
 
 const SocialLinks = ({showName}) => {
