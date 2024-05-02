@@ -6,13 +6,13 @@ import PersonalPhoto from "../assets/Images/PersonalPhoto.jpg";
 
 const About = () => {
   const AboutData = [
-    "- I am a Frontend Developer based in Germany. I hold a Bachelor's Degree in Information Systems Engineering from Eastern Mediterranean University in Northern Cyprus and a Master's Degree in Computer Engineering from Bahçeşehir University in Istanbul, Turkey.",
+    "- I am a Full-Stack Developer based in Germany. I hold a Bachelor's Degree in Information Systems Engineering from Eastern Mediterranean University in Northern Cyprus and a Master's Degree in Computer Engineering from Bahçeşehir University in Istanbul, Turkey.",
     "- During my university studies, I gained theoretical knowledge in multiple programming languages.",
     "- To enhance my skills in the Front-End field, I pursued various courses on Udemy during my Master's Degree.",
     "- Following the completion of my Master's Degree, I joined Re-Coded, where I applied my theoretical knowledge through numerous projects. This experience significantly improved my programming abilities, specifically in (HTML, CSS, Bootstrap, TailwindCSS, JavaScript, TypeScript, React.js, Redux Toolkit, Next.js 14).",
     "- A significant milestone in my career was joining UNDP (SDG AI LAB) in Istanbul. I contributed to the development and deployment of the Radar Digital Technology web application using React.js & TypeScript.",
+    "- I attended MERN course to become Full-Stack Developer, and I'm now attending Golang and Docker courses.",
     "- I stay up-to-date with the latest technologies, ensuring that I can consistently deliver innovative and cutting-edge solutions.",
-    "- Adept at multitasking and managing competing priorities.",
   ];
 
   const containerVariants = {
@@ -42,7 +42,7 @@ const About = () => {
               NAJI ALHUSAMI
             </motion.h1>
             <motion.h3 className="text-2xl font-bold mb-4">
-              Frontend Developer
+              Full-Stack Developer
             </motion.h3>
             <motion.ul
               variants={containerVariants}
@@ -51,7 +51,7 @@ const About = () => {
             >
               <motion.li variants={itemVariants} className="text-lg mb-4">
                 Hi, My name is <b>NAJI ALHUSAMI</b> I am passionate about
-                building excellent websites that improves the lives of those
+                building excellent web applications that improves the lives of those
                 around me.
               </motion.li>
               {AboutData.map((data) => {

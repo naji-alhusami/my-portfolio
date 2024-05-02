@@ -31,7 +31,7 @@ const Home = () => {
             transition={{ delay: 0.6 }}
             className="text-2xl font-bold mb-6"
           >
-            Fontend Developer
+            Full-Stack Developer
           </motion.h3>
           <motion.div
             initial={{ x: -600 }}
