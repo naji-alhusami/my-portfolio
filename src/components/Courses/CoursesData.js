@@ -71,14 +71,14 @@ const CoursesData = [
     certificate:
       "https://udemy-certificate.s3.amazonaws.com/pdf/UC-453e35ef-5c02-4220-a804-4f8e9e77b1ca.pdf",
   },
-  {
-    id: 10,
-    name: "Gatsby.js Tutorial and Projects Course",
-    description:
-      "- Installing Gatsbyjs. || - Learn Gatsbyjs. || - Building Projects.",
-    certificate:
-      "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
-  },
+  // {
+  //   id: 10,
+  //   name: "Gatsby.js Tutorial and Projects Course",
+  //   description:
+  //     "- Installing Gatsbyjs. || - Learn Gatsbyjs. || - Building Projects.",
+  //   certificate:
+  //     "https://www.udemy.com/certificate/UC-aa7545dc-f012-4cad-b151-28216e20de0b/",
+  // },
 ];
 
 export default CoursesData;

@@ -42,7 +42,7 @@ const About = () => {
               NAJI ALHUSAMI
             </motion.h1>
             <motion.h3 className="text-2xl font-bold mb-4">
-              Full-Stack Developer
+              Frontend Developer
             </motion.h3>
             <motion.ul
               variants={containerVariants}
